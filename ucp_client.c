@@ -5,6 +5,7 @@
 #include <arpa/inet.h> /* inet_addr */
 #include <unistd.h>    /* getopt */
 #include <stdlib.h>    /* atoi */
+#include <sys/time.h>
 
 /**
  * Initialize the client side. Create an endpoint from the client side to be
@@ -53,7 +54,8 @@ static ucs_status_t start_client(ucp_worker_h ucp_worker,
     return status;
 }
 
-static int run_client(ucp_worker_h ucp_worker, char *server_addr)
+static int run_client(ucp_worker_h ucp_worker, char *server_addr,
+                      send_recv_type_t send_recv_type)
 {
     ucp_ep_h     client_ep;
     ucs_status_t status;
@@ -65,18 +67,23 @@ static int run_client(ucp_worker_h ucp_worker, char *server_addr)
         ret = -1;
         goto out;
     }
-
-    ret = client_server_do_work(ucp_worker, client_ep, 0);
-
-    /* Close the endpoint to the server */
-    ep_close(ucp_worker, client_ep, UCP_EP_CLOSE_MODE_FLUSH);
-
+    {
+        struct timeval end, start;
+        gettimeofday(&start, NULL);
+        ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, 0);
+        gettimeofday(&end, NULL);
+        float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
+        printf("total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", total_transfer_size / (1024 * 1024), delta_s, total_transfer_size / delta_s / (1024 * 1024)); 
+        /* Close the endpoint to the server */
+        ep_close(ucp_worker, client_ep, UCP_EP_CLOSE_MODE_FLUSH);
+    }
 out:
     return ret;
 }
 
 int main(int argc, char **argv)
 {
+    
     char *server_addr = NULL;
     int ret;
 
@@ -90,14 +97,14 @@ int main(int argc, char **argv)
     }
 
     /* Initialize the UCX required objects */
-    ret = init_context(&ucp_context, &ucp_worker);
+    ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
     if (ret != 0) {
         goto err;
     }
 
     /* Client-Server initialization */
     /* Client side */
-    ret = run_client(ucp_worker, server_addr);
+    ret = run_client(ucp_worker, server_addr, send_recv_type);
 
     ucp_worker_destroy(ucp_worker);
     ucp_cleanup(ucp_context);

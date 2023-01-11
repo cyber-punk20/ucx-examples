@@ -2,14 +2,16 @@
 #include "ucp_common_utils.h"
 
 
-long test_string_length = 16;
+send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_DEFAULT;
+
+long test_string_length = 1024 * 1024 * 5;
 long iov_cnt            = 1;
 
 sa_family_t ai_family   = AF_INET;
 uint16_t server_port    = DEFAULT_PORT;
 static int num_iterations      = DEFAULT_NUM_ITERATIONS;
 static int connection_closed   = 1;
-
+long total_transfer_size = num_iterations * iov_cnt * test_string_length;
 
 typedef struct test_req {
     int complete;
@@ -162,15 +164,15 @@ int buffer_malloc(ucp_dt_iov_t *iov)
 int fill_buffer(ucp_dt_iov_t *iov)
 {
     int ret = 0;
-    size_t idx;
+    // size_t idx;
 
-    for (idx = 0; idx < iov_cnt; idx++) {
-        ret = generate_test_string((char*)iov[idx].buffer, iov[idx].length);
-        if (ret != 0) {
-            break;
-        }
-    }
-    CHKERR_ACTION(ret != 0, "generate test string", return -1;);
+    // for (idx = 0; idx < iov_cnt; idx++) {
+    //     ret = generate_test_string((char*)iov[idx].buffer, iov[idx].length);
+    //     if (ret != 0) {
+    //         break;
+    //     }
+    // }
+    // CHKERR_ACTION(ret != 0, "generate test string", return -1;);
     return 0;
 }
 
@@ -178,7 +180,8 @@ int fill_buffer(ucp_dt_iov_t *iov)
 /**
  * Initialize the UCP context and worker.
  */
-int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker) 
+int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker,
+                        send_recv_type_t send_recv_type) 
 {
     /* UCP objects */
     ucp_params_t ucp_params;
@@ -190,7 +193,15 @@ int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker)
     /* UCP initialization */
     ucp_params.field_mask = UCP_PARAM_FIELD_FEATURES | UCP_PARAM_FIELD_NAME;
     ucp_params.name       = "ucp_client_server";
-    ucp_params.features = UCP_FEATURE_AM;
+    if (send_recv_type == CLIENT_SERVER_SEND_RECV_STREAM) {
+        ucp_params.features = UCP_FEATURE_STREAM;
+    } 
+    // else if (send_recv_type == CLIENT_SERVER_SEND_RECV_TAG) {
+    //     ucp_params.features = UCP_FEATURE_TAG;
+    // } 
+    else {
+        ucp_params.features = UCP_FEATURE_AM;
+    }
     status = ucp_init(&ucp_params, NULL, ucp_context);
     if (status != UCS_OK) {
         fprintf(stderr, "failed to ucp_init (%s)\n", ucs_status_string(status));
@@ -334,6 +345,17 @@ static void send_cb(void *request, ucs_status_t status, void *user_data)
 }
 
 /**
+ * The callback on the receiving side, which is invoked upon receiving the
+ * stream message.
+ */
+static void stream_recv_cb(void *request, ucs_status_t status, size_t length,
+                           void *user_data)
+{
+    common_cb(user_data, "stream_recv_cb");
+}
+
+
+/**
  * Error handling callback.
  */
 void err_cb(void *arg, ucp_ep_h ep, ucs_status_t status)
@@ -445,10 +467,10 @@ static int request_finalize(ucp_worker_h ucp_worker, test_req_t *request,
     }
 
     /* Print the output of the first, last and every PRINT_INTERVAL iteration */
-    if ((current_iter == 0) || (current_iter == (num_iterations - 1)) ||
-        !((current_iter + 1) % (PRINT_INTERVAL))) {
-        print_result(is_server, iov, current_iter);
-    }
+    // if ((current_iter == 0) || (current_iter == (num_iterations - 1)) ||
+    //     !((current_iter + 1) % (PRINT_INTERVAL))) {
+    //     print_result(is_server, iov, current_iter);
+    // }
 
 release_iov:
     buffer_free(iov);
@@ -512,13 +534,74 @@ static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
                             current_iter);
 }
 
-static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep, int is_server, int current_iter)
+/**
+ * Send and receive a message using the Stream API.
+ * The client sends a message to the server and waits until the send it completed.
+ * The server receives a message from the client and waits for its completion.
+ */
+static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
+                            int current_iter)
 {
-    int ret = send_recv_am(worker, ep, is_server, current_iter);
+    ucp_dt_iov_t *iov = (ucp_dt_iov_t *)alloca(iov_cnt * sizeof(ucp_dt_iov_t));
+    ucp_request_param_t param;
+    test_req_t *request;
+    size_t msg_length;
+    void *msg;
+    test_req_t ctx;
+
+    memset(iov, 0, iov_cnt * sizeof(*iov));
+
+    if (fill_request_param(iov, !is_server, &msg, &msg_length,
+                           &ctx, &param) != 0) {
+        return -1;
+    }
+
+    if (!is_server) {
+        /* Client sends a message to the server using the stream API */
+        param.cb.send = send_cb;
+        request       = (test_req_t *)ucp_stream_send_nbx(ep, msg, msg_length, &param);
+    } else {
+        /* Server receives a message from the client using the stream API */
+        param.op_attr_mask  |= UCP_OP_ATTR_FIELD_FLAGS;
+        param.flags          = UCP_STREAM_RECV_FLAG_WAITALL;
+        param.cb.recv_stream = stream_recv_cb;
+        request              = (test_req_t *)ucp_stream_recv_nbx(ep, msg, msg_length,
+                                                   &msg_length, &param);
+    }
+
+    return request_finalize(ucp_worker, request, &ctx, is_server, iov,
+                            current_iter);
+}
+
+
+static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep, 
+                                        send_recv_type_t send_recv_type, 
+                                        int is_server, int current_iter)
+{
+    int ret;
+
+    switch (send_recv_type) {
+    case CLIENT_SERVER_SEND_RECV_STREAM:
+        /* Client-Server communication via Stream API */
+        ret = send_recv_stream(worker, ep, is_server, current_iter);
+        break;
+    // case CLIENT_SERVER_SEND_RECV_TAG:
+    //     /* Client-Server communication via Tag-Matching API */
+    //     ret = send_recv_tag(worker, ep, is_server, current_iter);
+    //     break;
+    case CLIENT_SERVER_SEND_RECV_AM:
+        /* Client-Server communication via AM API. */
+        ret = send_recv_am(worker, ep, is_server, current_iter);
+        break;
+    default:
+        fprintf(stderr, "unknown send-recv type %d\n", send_recv_type);
+        return -1;
+    }
+
     return ret;
 }
 
-int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server)
+int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, int is_server)
 {
     int i, ret = 0;
     ucs_status_t status;
@@ -526,7 +609,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server)
     connection_closed = 0;
 
     for (i = 0; i < num_iterations; i++) {
-        ret = client_server_communication(ucp_worker, ep,
+        ret = client_server_communication(ucp_worker, ep, send_recv_type,
                                           is_server, i);
         if (ret != 0) {
             fprintf(stderr, "%s failed on iteration #%d\n",
@@ -536,7 +619,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server)
     }
 
     /* Register recv callback on the client side to receive FIN message */
-    if (!is_server) {
+    if (!is_server  && (send_recv_type == CLIENT_SERVER_SEND_RECV_AM)) {
         status = register_am_recv_callback(ucp_worker);
         if (status != UCS_OK) {
             ret = -1;
@@ -545,7 +628,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server)
     }
 
     /* FIN message in reverse direction to acknowledge delivery */
-    ret = client_server_communication(ucp_worker, ep, 
+    ret = client_server_communication(ucp_worker, ep, send_recv_type,
                                       !is_server, i + 1);
     if (ret != 0) {
         fprintf(stderr, "%s failed on FIN message\n",

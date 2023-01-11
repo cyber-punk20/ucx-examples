@@ -141,7 +141,7 @@ out:
 }
 
 static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
-                      char *listen_addr)
+                      char *listen_addr, send_recv_type_t send_recv_type)
 {
     ucx_server_ctx_t context;
     ucp_worker_h     ucp_data_worker;
@@ -154,11 +154,14 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     if (ret != 0) {
         goto err;
     }
-    status = register_am_recv_callback(ucp_data_worker);
-    if (status != UCS_OK) {
-        ret = -1;
-        goto err_worker;
+    if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
+        status = register_am_recv_callback(ucp_data_worker);
+        if (status != UCS_OK) {
+            ret = -1;
+            goto err_worker;
+        }
     }
+    
     /* Initialize the server's context. */
     context.conn_request = NULL;
 
@@ -194,7 +197,7 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
 
         /* The server waits for all the iterations to complete before moving on
          * to the next client */
-        ret = client_server_do_work(ucp_data_worker, server_ep,
+        ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type,
                                     1);
         if (ret != 0) {
             goto err_ep;
@@ -230,11 +233,11 @@ int main(int argc, char ** argv) {
     ucp_context_h ucp_context;
     ucp_worker_h  ucp_worker;
     /* Initialize the UCX required objects */
-    ret = init_context(&ucp_context, &ucp_worker);
+    ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
     if (ret != 0) {
         goto err;
     }
-    ret = run_server(ucp_context, ucp_worker, listen_addr);
+    ret = run_server(ucp_context, ucp_worker, listen_addr, send_recv_type);
 err:
     return ret;
 
