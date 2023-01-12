@@ -223,6 +223,15 @@ err:
 
 int mpi_rank, nServer=0;	// rank and size of MPI
 
+static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
+    void* ptr = malloc(client_cnt * mem_size_per_client);
+    return ptr;
+}
+
+static void* get_memory_addr(void* ptr, int client_idx, int mem_size_per_client) {
+    return (ptr + client_idx * mem_size_per_client);
+}
+
 int main(int argc, char ** argv) {
     MPI_Init(NULL, NULL);
 	MPI_Comm_size(MPI_COMM_WORLD, &nServer);
@@ -234,10 +243,12 @@ int main(int argc, char ** argv) {
     ucp_worker_h  ucp_worker;
     /* Initialize the UCX required objects */
     ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
-    if (ret != 0) {
+    void* ptr = allocate_memory_for_rma(128, 50 * 1024 * 1024);
+    if (ret != 0 || ptr == NULL) {
         goto err;
     }
     ret = run_server(ucp_context, ucp_worker, listen_addr, send_recv_type);
+    free(ptr);
 err:
     return ret;
 
