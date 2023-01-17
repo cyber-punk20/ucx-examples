@@ -13,6 +13,8 @@
 #define PRINT_INTERVAL         2000
 #define DEFAULT_NUM_ITERATIONS 40
 #define TEST_AM_ID             0
+#define SERVER_MAX_CLIENT_CNT 128
+#define MEM_PER_CLIENT 50 * 1024 * 1024
 
 typedef enum {
     CLIENT_SERVER_SEND_RECV_STREAM  = UCS_BIT(0),

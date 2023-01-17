@@ -8,9 +8,9 @@ RM=rm -rf
 
 all: server client
 server: $(OBJS)
-	$(CXX) -O2 $(CXXFLAGS) -g -o $@ obj/ucp_server.o obj/ucp_common.o  -L$(UCX_LIB_DIRECTORY) -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib/release_mt -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib -lmpicxx -lmpifort -lmpi -ldl -lucp -lucm -lucs -luct
+	$(CXX) -O2 $(CXXFLAGS) -g -o $@ obj/ucp_server.o obj/ucp_common.o  -L$(UCX_LIB_DIRECTORY) -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib/release_mt -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib -lpthread -lmpicxx -lmpifort -lmpi -ldl -lucp -lucm -lucs -luct
 client: $(OBJS)
-	$(CXX) -O2 $(CXXFLAGS) -g -o $@ obj/ucp_client.o obj/ucp_common.o  -L$(UCX_LIB_DIRECTORY) -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib/release_mt -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib -lmpicxx -lmpifort -lmpi -ldl -lucp -lucm -lucs -luct
+	$(CXX) -O2 $(CXXFLAGS) -g -o $@ obj/ucp_client.o obj/ucp_common.o  -L$(UCX_LIB_DIRECTORY) -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib/release_mt -L/opt/intel/compilers_and_libraries_2018.6.288/linux/mpi/intel64/lib -lpthread -lmpicxx -lmpifort -lmpi -ldl -lucp -lucm -lucs -luct
 
 obj/ucp_client.o: ucp_client.c $(HEADERS)
 	$(CXX) -O0 $(CXXFLAGS) -c -o obj/ucp_client.o $<

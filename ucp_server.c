@@ -1,5 +1,12 @@
 #include <ucp/api/ucp.h>
 #include "ucp_common.h"
+#include "thread_pool.h"
+
+#include <thread>
+#include <vector>
+#include <mutex>
+#include <queue>
+#include <condition_variable>
 
 
 #include <string.h>    /* memset */
@@ -15,8 +22,11 @@
  * It holds the server's listener and the handle to an incoming connection request.
  */
 typedef struct ucx_server_ctx {
-    volatile ucp_conn_request_h conn_request;
+    // volatile ucp_conn_request_h conn_request;
     ucp_listener_h              listener;
+    std::queue<ucp_conn_request_h> context_queue;
+    std::mutex context_queue_mutex;
+    std::condition_variable context_queue_condition;
 } ucx_server_ctx_t;
 
 
@@ -74,20 +84,25 @@ static void server_conn_handle_cb(ucp_conn_request_h conn_request, void *arg) {
         fprintf(stderr, "failed to query the connection request (%s)\n",
                 ucs_status_string(status));
     }
-
-    if (context->conn_request == NULL) {
-        context->conn_request = conn_request;
-    } else {
-        /* The server is already handling a connection request from a client,
-         * reject this new one */
-        printf("Rejecting a connection request. "
-               "Only one client at a time is supported.\n");
-        status = ucp_listener_reject(context->listener, conn_request);
-        if (status != UCS_OK) {
-            fprintf(stderr, "server failed to reject a connection request: (%s)\n",
-                    ucs_status_string(status));
-        }
+    
+    {
+        std::unique_lock<std::mutex> lock(context->context_queue_mutex);
+        context->context_queue.emplace(conn_request);
     }
+    context->context_queue_condition.notify_one();
+    // if (context->conn_request == NULL) {
+    //     context->conn_request = conn_request;
+    // } else {
+    //     /* The server is already handling a connection request from a client,
+    //      * reject this new one */
+    //     printf("Rejecting a connection request. "
+    //            "Only one client at a time is supported.\n");
+    //     status = ucp_listener_reject(context->listener, conn_request);
+    //     if (status != UCS_OK) {
+    //         fprintf(stderr, "server failed to reject a connection request: (%s)\n",
+    //                 ucs_status_string(status));
+    //     }
+    // }
 }
 
 /**
@@ -140,31 +155,30 @@ out:
     return status;
 }
 
+static void* server_progress(void* args) {
+    ucp_worker_h ucp_worker = *((ucp_worker_h*)args);
+    printf("Waiting for connection...\n");
+    while (true) {
+        ucp_worker_progress(ucp_worker);
+    }
+    return NULL;
+}
+
+// MAIN THREAD
 static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
                       char *listen_addr, send_recv_type_t send_recv_type)
 {
     ucx_server_ctx_t context;
-    ucp_worker_h     ucp_data_worker;
-    ucp_ep_h         server_ep;
     ucs_status_t     status;
     int              ret;
-    /* Create a data worker (to be used for data exchange between the server
-     * and the client after the connection between them was established) */
-    ret = init_worker(ucp_context, &ucp_data_worker);
-    if (ret != 0) {
-        goto err;
-    }
-    if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
-        status = register_am_recv_callback(ucp_data_worker);
-        if (status != UCS_OK) {
-            ret = -1;
-            goto err_worker;
-        }
-    }
-    
-    /* Initialize the server's context. */
-    context.conn_request = NULL;
 
+    const unsigned int number_of_threads = std::thread::hardware_concurrency();
+    ThreadPool pool(number_of_threads);
+
+
+    
+    
+    
     /* Create a listener on the worker created at first. The 'connection
      * worker' - used for connection establishment between client and server.
      * This listener will stay open for listening to incoming connection
@@ -172,53 +186,79 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     status = start_server(ucp_worker, &context, &context.listener, listen_addr);
     if (status != UCS_OK) {
         ret = -1;
-        goto err_worker;
+        ucp_worker_destroy(ucp_worker);
+        return ret;
     }
+    
     /* Server is always up listening */
+    pthread_t server_listener_thread_id;
+    int listener_thread = pthread_create(&server_listener_thread_id, NULL, &server_progress, &ucp_worker);
     while (1) {
-        /* Wait for the server to receive a connection request from the client.
-         * If there are multiple clients for which the server's connection request
-         * callback is invoked, i.e. several clients are trying to connect in
-         * parallel, the server will handle only the first one and reject the rest */
-        while (context.conn_request == NULL) {
-            ucp_worker_progress(ucp_worker);
+        ucp_conn_request_h conn_request = NULL;
+        {
+            std::unique_lock<std::mutex> lock(context.context_queue_mutex);
+            context.context_queue_condition.wait(lock,
+                [&context]{ return !context.context_queue.empty(); });
+            conn_request = std::move(context.context_queue.front());
+            context.context_queue.pop();
         }
+        pool.enqueue([ucp_context, conn_request, send_recv_type]() { 
+            ucs_status_t     status;
+            int              ret;
+            ucp_worker_h     ucp_data_worker;
+            ucp_ep_h         server_ep;
+            /* Create a data worker (to be used for data exchange between the server
+            * and the client after the connection between them was established) */
+            ret = init_worker(ucp_context, &ucp_data_worker);
+            if (ret != 0) {
+                return ret;
+            }
+            if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
+                status = register_am_recv_callback(ucp_data_worker);
+                if (status != UCS_OK) {
+                    ret = -1;
+                    goto err_ucp_data_worker;
+                }
+            }
+            
 
-        /* Server creates an ep to the client on the data worker.
-         * This is not the worker the listener was created on.
-         * The client side should have initiated the connection, leading
-         * to this ep's creation */
-        status = server_create_ep(ucp_data_worker, context.conn_request,
-                                  &server_ep);
-        if (status != UCS_OK) {
-            ret = -1;
-            goto err_listener;
-        }
+            /* Server creates an ep to the client on the data worker.
+            * This is not the worker the listener was created on.
+            * The client side should have initiated the connection, leading
+            * to this ep's creation */
+            status = server_create_ep(ucp_data_worker, conn_request,
+                                    &server_ep);
+            if (status != UCS_OK) {
+                ret = -1;
+                // goto err_listener;
+                return ret;
+            }
 
-        /* The server waits for all the iterations to complete before moving on
-         * to the next client */
-        ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type,
-                                    1);
-        if (ret != 0) {
-            goto err_ep;
-        }
+            /* The server waits for all the iterations to complete before moving on
+            * to the next client */
+            ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type,
+                                        1);
+            if (ret != 0) {
+                goto err_ep;
+            }
 
-        /* Close the endpoint to the client */
-        ep_close(ucp_data_worker, server_ep, UCP_EP_CLOSE_MODE_FORCE);
+            /* Close the endpoint to the client */
+            // ep_close(ucp_data_worker, server_ep, UCP_EP_CLOSE_MODE_FORCE);
 
-        /* Reinitialize the server's context to be used for the next client */
-        context.conn_request = NULL;
-
-        printf("Waiting for connection...\n");
+            /* Reinitialize the server's context to be used for the next client */
+            // context.conn_request = NULL;
+            err_ep:
+                ep_close(ucp_data_worker, server_ep, UCP_EP_CLOSE_MODE_FORCE);
+            err_ucp_data_worker:
+                ucp_worker_destroy(ucp_data_worker);
+        });
+        
+        
     }
-err_ep:
-    ep_close(ucp_data_worker, server_ep, UCP_EP_CLOSE_MODE_FORCE);
 err_listener:
     ucp_listener_destroy(context.listener);
-err_worker:
-    ucp_worker_destroy(ucp_data_worker);
-err:
-    return ret;
+
+    return UCS_OK;
 }
 
 int mpi_rank, nServer=0;	// rank and size of MPI
@@ -243,7 +283,7 @@ int main(int argc, char ** argv) {
     ucp_worker_h  ucp_worker;
     /* Initialize the UCX required objects */
     ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
-    void* ptr = allocate_memory_for_rma(128, 50 * 1024 * 1024);
+    void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, MEM_PER_CLIENT);
     if (ret != 0 || ptr == NULL) {
         goto err;
     }
