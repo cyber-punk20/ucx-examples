@@ -69,8 +69,9 @@ static int run_client(ucp_worker_h ucp_worker, char *server_addr,
     }
     {
         struct timeval end, start;
+        AM_DATA_DESC am_data_desc = {0, 0, NULL, NULL};
         gettimeofday(&start, NULL);
-        ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, 0);
+        ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, &am_data_desc, 0);
         gettimeofday(&end, NULL);
         float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
         printf("total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", total_transfer_size / (1024 * 1024), delta_s, total_transfer_size / delta_s / (1024 * 1024)); 

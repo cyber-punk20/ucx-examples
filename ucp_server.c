@@ -210,11 +210,12 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
             /* Create a data worker (to be used for data exchange between the server
             * and the client after the connection between them was established) */
             ret = init_worker(ucp_context, &ucp_data_worker);
+            AM_DATA_DESC am_data_desc = {0, 0, NULL, NULL};
             if (ret != 0) {
                 return ret;
             }
             if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
-                status = register_am_recv_callback(ucp_data_worker);
+                status = register_am_recv_callback(ucp_data_worker, &am_data_desc);
                 if (status != UCS_OK) {
                     ret = -1;
                     goto err_ucp_data_worker;
@@ -236,7 +237,8 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
 
             /* The server waits for all the iterations to complete before moving on
             * to the next client */
-            ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type,
+            ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type, 
+                                        &am_data_desc,
                                         1);
             if (ret != 0) {
                 goto err_ep;

@@ -21,8 +21,19 @@ typedef enum {
     CLIENT_SERVER_SEND_RECV_STREAM  = UCS_BIT(0),
     CLIENT_SERVER_SEND_RECV_TAG     = UCS_BIT(1),
     CLIENT_SERVER_SEND_RECV_AM      = UCS_BIT(2),
+    CLIENT_SERVER_SEND_RECV_RMA      = UCS_BIT(3),
     CLIENT_SERVER_SEND_RECV_DEFAULT = CLIENT_SERVER_SEND_RECV_STREAM
 } send_recv_type_t;
+
+/**
+ * Descriptor of the data received with AM API.
+ */
+typedef struct AM_DATA_DESC{
+    volatile int complete;
+    int          is_rndv;
+    void         *desc;
+    void         *recv_buf;
+} AM_DATA_DESC;
 
 extern long test_string_length;
 extern long iov_cnt;
@@ -40,11 +51,11 @@ char* sockaddr_get_port_str(const struct sockaddr_storage *sock_addr,
 void set_sock_addr(const char *address_str, struct sockaddr_storage *saddr);
 int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker, send_recv_type_t send_recv_type);
 int init_worker(ucp_context_h ucp_context, ucp_worker_h *ucp_worker);
-int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, int is_server);
+int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, AM_DATA_DESC* am_data_desc_p, int is_server);
 ucs_status_t ucp_am_data_cb(void *arg, const void *header, size_t header_length,
                             void *data, size_t length,
                             const ucp_am_recv_param_t *param);
 void err_cb(void *arg, ucp_ep_h ep, ucs_status_t status);
-ucs_status_t register_am_recv_callback(ucp_worker_h worker);
+ucs_status_t register_am_recv_callback(ucp_worker_h worker, AM_DATA_DESC* am_data_desc);
 void ep_close(ucp_worker_h ucp_worker, ucp_ep_h ep, uint64_t flags);
 # endif

@@ -20,12 +20,12 @@ typedef struct test_req {
 /**
  * Descriptor of the data received with AM API.
  */
-static struct {
-    volatile int complete;
-    int          is_rndv;
-    void         *desc;
-    void         *recv_buf;
-} am_data_desc = {0, 0, NULL, NULL};
+// static struct {
+//     volatile int complete;
+//     int          is_rndv;
+//     void         *desc;
+//     void         *recv_buf;
+// } am_data_desc = {0, 0, NULL, NULL};
 
 /**
  * Parse the command line arguments.
@@ -399,7 +399,7 @@ void err_cb(void *arg, ucp_ep_h ep, ucs_status_t status)
     connection_closed = 1;
 }
 
-ucs_status_t register_am_recv_callback(ucp_worker_h worker) 
+ucs_status_t register_am_recv_callback(ucp_worker_h worker, AM_DATA_DESC* am_data_desc_p) 
 {
     ucp_am_handler_param_t param;
 
@@ -408,7 +408,7 @@ ucs_status_t register_am_recv_callback(ucp_worker_h worker)
                        UCP_AM_HANDLER_PARAM_FIELD_ARG;
     param.id         = TEST_AM_ID;
     param.cb         = ucp_am_data_cb;
-    param.arg        = worker; /* not used in our callback */
+    param.arg        = am_data_desc_p; /* not used in our callback */
     return ucp_worker_set_am_recv_handler(worker, &param);
 }
 
@@ -429,25 +429,25 @@ ucs_status_t ucp_am_data_cb(void *arg, const void *header, size_t header_length,
     if (header_length != 0) {
         fprintf(stderr, "received unexpected header, length %ld", header_length);
     }
-
-    am_data_desc.complete = 1;
+    AM_DATA_DESC* am_data_desc_p = (AM_DATA_DESC*)arg;
+    am_data_desc_p->complete = 1;
 
     if (param->recv_attr & UCP_AM_RECV_ATTR_FLAG_RNDV) {
         /* Rendezvous request arrived, data contains an internal UCX descriptor,
          * which has to be passed to ucp_am_recv_data_nbx function to confirm
          * data transfer.
          */
-        am_data_desc.is_rndv = 1;
-        am_data_desc.desc    = data;
+        am_data_desc_p->is_rndv = 1;
+        am_data_desc_p->desc    = data;
         return UCS_INPROGRESS;
     }
 
     /* Message delivered with eager protocol, data should be available
      * immediately
      */
-    am_data_desc.is_rndv = 0;
+    am_data_desc_p->is_rndv = 0;
 
-    iov = (ucp_dt_iov_t*)am_data_desc.recv_buf;
+    iov = (ucp_dt_iov_t*)am_data_desc_p->recv_buf;
     offset = 0;
     for (idx = 0; idx < iov_cnt; idx++) {
         mem_type_memcpy(iov[idx].buffer, UCS_PTR_BYTE_OFFSET(data, offset),
@@ -521,7 +521,7 @@ release_iov:
  * The server gets a message from the client and if it is rendezvous request,
  * initiates receive operation.
  */
-static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
+static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_data_desc_p, int is_server,
                         int current_iter)
 {
     ucp_dt_iov_t *iov = (ucp_dt_iov_t *)alloca(iov_cnt * sizeof(ucp_dt_iov_t));
@@ -537,23 +537,23 @@ static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
         return -1;
     }
     if (is_server) {
-        am_data_desc.recv_buf = iov;
+        am_data_desc_p->recv_buf = iov;
 
         /* waiting for AM callback has called */
-        while (!am_data_desc.complete) {
+        while (!am_data_desc_p->complete) {
             ucp_worker_progress(ucp_worker);
         }
 
-        am_data_desc.complete = 0;
+        am_data_desc_p->complete = 0;
 
-        if (am_data_desc.is_rndv) {
+        if (am_data_desc_p->is_rndv) {
             /* Rendezvous request has arrived, need to invoke receive operation
              * to confirm data transfer from the sender to the "recv_message"
              * buffer. */
             params.op_attr_mask |= UCP_OP_ATTR_FLAG_NO_IMM_CMPL;
             params.cb.recv_am    = am_recv_cb;
             request              = (test_req_t*)ucp_am_recv_data_nbx(ucp_worker,
-                                                        am_data_desc.desc,
+                                                        am_data_desc_p->desc,
                                                         msg, msg_length,
                                                         &params);
         } else {
@@ -614,6 +614,7 @@ static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
 
 static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep, 
                                         send_recv_type_t send_recv_type, 
+                                        AM_DATA_DESC* am_data_desc_p,
                                         int is_server, int current_iter)
 {
     int ret;
@@ -629,7 +630,7 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     //     break;
     case CLIENT_SERVER_SEND_RECV_AM:
         /* Client-Server communication via AM API. */
-        ret = send_recv_am(worker, ep, is_server, current_iter);
+        ret = send_recv_am(worker, ep, am_data_desc_p, is_server, current_iter);
         break;
     default:
         fprintf(stderr, "unknown send-recv type %d\n", send_recv_type);
@@ -639,7 +640,7 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     return ret;
 }
 
-int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, int is_server)
+int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, AM_DATA_DESC* am_data_desc_p, int is_server)
 {
     int i, ret = 0;
     ucs_status_t status;
@@ -648,6 +649,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t
 
     for (i = 0; i < num_iterations; i++) {
         ret = client_server_communication(ucp_worker, ep, send_recv_type,
+                                          am_data_desc_p,
                                           is_server, i);
         if (ret != 0) {
             fprintf(stderr, "%s failed on iteration #%d\n",
@@ -658,7 +660,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t
 
     /* Register recv callback on the client side to receive FIN message */
     if (!is_server  && (send_recv_type == CLIENT_SERVER_SEND_RECV_AM)) {
-        status = register_am_recv_callback(ucp_worker);
+        status = register_am_recv_callback(ucp_worker, am_data_desc_p);
         if (status != UCS_OK) {
             ret = -1;
             goto out;
@@ -666,7 +668,7 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t
     }
 
     /* FIN message in reverse direction to acknowledge delivery */
-    ret = client_server_communication(ucp_worker, ep, send_recv_type,
+    ret = client_server_communication(ucp_worker, ep, send_recv_type, am_data_desc_p,
                                       !is_server, i + 1);
     if (ret != 0) {
         fprintf(stderr, "%s failed on FIN message\n",
