@@ -136,6 +136,37 @@ void print_result(int is_server, const ucp_dt_iov_t *iov, int current_iter)
     printf("\n\n------------------------------\n\n");
 }
 
+static void check_iov(const ucp_dt_iov_t *iov) {
+    size_t idx;
+    bool check_res = true;
+    for (idx = 0; idx < iov_cnt; idx++) {
+        /* In case of Non-System memory */
+        if(!check_test_string((char*)iov[idx].buffer, test_string_length)) {
+            check_res = false;
+            break;
+        }
+    }
+    if(check_res) {
+        printf("Server receives test data correctly from client\n");
+    }
+    else {
+        printf("[ERR]Server receives test data incorrectly from client\n");
+    }
+}
+
+static void check_result(int is_server, const ucp_dt_iov_t *iov, int current_iter) {
+    if (is_server) {
+        printf("Server: iteration #%d\n", (current_iter + 1));
+        printf("UCX data message was received\n");
+        printf("\n\n----- UCP TEST SUCCESS -------\n\n");
+        check_iov(iov);
+    } else {
+        printf("Client: iteration #%d\n", (current_iter + 1));
+        printf("\n\n------------------------------\n\n");
+    }
+    printf("\n\n------------------------------\n\n");
+}
+
 void buffer_free(ucp_dt_iov_t *iov)
 {
     size_t idx;
@@ -164,15 +195,18 @@ int buffer_malloc(ucp_dt_iov_t *iov)
 int fill_buffer(ucp_dt_iov_t *iov)
 {
     int ret = 0;
-    // size_t idx;
+    size_t idx;
+    if(DEBUG_DATA_CHECK) {
+        for (idx = 0; idx < iov_cnt; idx++) {
+            ret = generate_test_string((char*)iov[idx].buffer, iov[idx].length);
+            if (ret != 0) {
+                break;
+            }
+        }
+        CHKERR_ACTION(ret != 0, "generate test string", return -1;);
+    }
 
-    // for (idx = 0; idx < iov_cnt; idx++) {
-    //     ret = generate_test_string((char*)iov[idx].buffer, iov[idx].length);
-    //     if (ret != 0) {
-    //         break;
-    //     }
-    // }
-    // CHKERR_ACTION(ret != 0, "generate test string", return -1;);
+    
     return 0;
 }
 
@@ -467,10 +501,14 @@ static int request_finalize(ucp_worker_h ucp_worker, test_req_t *request,
     }
 
     /* Print the output of the first, last and every PRINT_INTERVAL iteration */
-    // if ((current_iter == 0) || (current_iter == (num_iterations - 1)) ||
-    //     !((current_iter + 1) % (PRINT_INTERVAL))) {
-    //     print_result(is_server, iov, current_iter);
-    // }
+    if(DEBUG_DATA_CHECK) {
+        if ((current_iter == 0) || (current_iter == (num_iterations - 1)) ||
+            !((current_iter + 1) % (PRINT_INTERVAL))) {
+            // print_result(is_server, iov, current_iter);
+            check_result(is_server, iov, current_iter);
+        }
+    }
+    
 
 release_iov:
     buffer_free(iov);

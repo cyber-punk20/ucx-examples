@@ -10,11 +10,12 @@
 #define DEFAULT_PORT           13337
 #define IP_STRING_LEN          50
 #define PORT_STRING_LEN        8
-#define PRINT_INTERVAL         2000
+#define PRINT_INTERVAL         20
 #define DEFAULT_NUM_ITERATIONS 40
 #define TEST_AM_ID             0
 #define SERVER_MAX_CLIENT_CNT 128
 #define MEM_PER_CLIENT 50 * 1024 * 1024
+#define DEBUG_DATA_CHECK true
 
 typedef enum {
     CLIENT_SERVER_SEND_RECV_STREAM  = UCS_BIT(0),

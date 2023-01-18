@@ -297,5 +297,13 @@ static inline int generate_test_string(char *str, int size)
     return 0;
 }
 
+static inline bool check_test_string(char * str, int size) {
+    int i;
+    for (i = 0; i < (size - 1); ++i) {
+        if(str[i] != 'A' + (i % 26)) return false;
+    }
+    return true;
+}
+
 
 #endif
