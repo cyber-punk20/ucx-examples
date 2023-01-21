@@ -183,7 +183,7 @@ int buffer_malloc(ucp_dt_iov_t *iov, unsigned int client_idx, void* ptr, int cur
     for (idx = 0; idx < iov_cnt; idx++) {
         iov[idx].length = test_string_length;
         iov[idx].buffer = (char *)ptr + client_idx * total_transfer_size + current_iter * iov_cnt * test_string_length + idx * test_string_length;
-        printf("buffer malloc for client idx #%d, current iter #%d, ptr #%p\n", client_idx, current_iter, iov[idx].buffer);
+        // printf("buffer malloc for client idx #%d, current iter #%d, ptr #%p\n", client_idx, current_iter, iov[idx].buffer);
         if (iov[idx].buffer == NULL) {
             buffer_free(iov);
             return -1;
