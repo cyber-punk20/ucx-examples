@@ -5,7 +5,7 @@
 send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_DEFAULT;
 
 long test_string_length = 1024 * 1024 * 5;
-long iov_cnt            = 1;
+long iov_cnt            = 3;
 
 sa_family_t ai_family   = AF_INET;
 uint16_t server_port    = DEFAULT_PORT;
@@ -148,6 +148,7 @@ static void check_iov(const ucp_dt_iov_t *iov) {
     }
     if(check_res) {
         printf("Server receives test data correctly from client\n");
+        fflush(stdout);
     }
     else {
         printf("[ERR]Server receives test data incorrectly from client\n");

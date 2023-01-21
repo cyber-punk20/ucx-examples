@@ -167,7 +167,7 @@ static void* server_progress(void* args) {
     return NULL;
 }
 
-static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
+static void* allocate_memory_for_rma(int client_cnt, long mem_size_per_client) {
     void* ptr = mem_type_malloc(client_cnt * mem_size_per_client);
     return ptr;
 }
