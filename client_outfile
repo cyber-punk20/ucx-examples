@@ -1,0 +1,6504 @@
+TACC:  Starting up job 5142582 
+TACC:  Starting parallel tasks... 
+[1674337081.328624] [c100-002:185237:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.334284] [c100-002:185237:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b0fb784e010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b0fb7d4e010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b0fb824e010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b0fb874e010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b0fb8c4e010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b0fb914e010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b0fb964e010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b0fb9b4e010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b0fba04e010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b0fba54e010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b0fbaa4e010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b0fbaf4e010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b0fbb44e010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b0fbb94e010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b0fbbe4e010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b0fbc34e010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b0fbc84e010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b0fbcd4e010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b0fbd24e010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b0fbd74e010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b0fbdc4e010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 0.770591(s), bandwidth: 142.747574 MB/s
+[1674337081.329004] [c100-002:185238:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.334619] [c100-002:185238:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b74a1688010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b74a1b88010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b74a2088010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b74a2588010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b74a2a88010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b74a2f88010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b74a3488010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b74a3988010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b74a3e88010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b74a4388010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b74a4888010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b74a4d88010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b74a5288010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b74a5788010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b74a5c88010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b74a6188010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b74a6688010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b74a6b88010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b74a7088010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b74a7588010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b74a7a88010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.239452(s), bandwidth: 88.748901 MB/s
+[1674337081.342381] [c100-002:185241:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.358004] [c100-002:185241:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ab6442ae010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ab6447ae010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ab644cae010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ab6451ae010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ab6456ae010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ab645bae010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ab6460ae010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ab6465ae010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ab646aae010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ab646fae010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ab6474ae010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ab6479ae010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ab647eae010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ab6483ae010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ab6488ae010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ab648dae010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ab6492ae010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ab6497ae010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ab649cae010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ab64a1ae010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ab64a6ae010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.317850(s), bandwidth: 83.469284 MB/s
+[1674337081.332131] [c100-002:185242:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.337350] [c100-002:185242:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b39662d9010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b39667d9010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b3966cd9010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b39671d9010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b39676d9010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b3967bd9010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b39680d9010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b39685d9010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b3968ad9010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b3968fd9010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b39694d9010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b39699d9010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b3969ed9010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b396a3d9010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b396a8d9010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b396add9010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b396b2d9010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b396b7d9010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b396bcd9010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b396c1d9010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b396c6d9010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.329226(s), bandwidth: 82.754929 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.358509] [c100-002:185268:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373063] [c100-002:185268:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ad44455d010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ad444a5d010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ad444f5d010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ad44545d010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ad44595d010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ad445e5d010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ad44635d010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ad44685d010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ad446d5d010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ad44725d010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ad44775d010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ad447c5d010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ad44815d010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ad44865d010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ad448b5d010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ad44905d010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ad44955d010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ad449a5d010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ad449f5d010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ad44a45d010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ad44a95d010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.400665(s), bandwidth: 78.534119 MB/s
+[1674337081.341144] [c100-002:185245:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.355136] [c100-002:185245:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b2ac498f010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b2ac4e8f010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b2ac538f010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b2ac588f010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b2ac5d8f010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b2ac628f010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b2ac678f010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b2ac6c8f010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b2ac718f010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b2ac768f010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b2ac7b8f010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b2ac808f010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b2ac858f010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b2ac8a8f010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b2ac8f8f010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b2ac948f010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b2ac998f010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b2ac9e8f010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b2aca38f010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b2aca88f010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b2acad8f010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.426078(s), bandwidth: 77.134636 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.347090] [c100-002:185248:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.361010] [c100-002:185248:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b4ce2e47010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b4ce3347010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b4ce3847010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b4ce3d47010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b4ce4247010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b4ce4747010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b4ce4c47010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b4ce5147010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b4ce5647010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b4ce5b47010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b4ce6047010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b4ce6547010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b4ce6a47010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b4ce6f47010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b4ce7447010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b4ce7947010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b4ce7e47010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b4ce8347010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b4ce8847010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b4ce8d47010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b4ce9247010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.430130(s), bandwidth: 76.916084 MB/s
+[1674337081.360629] [c100-002:185269:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374585] [c100-002:185269:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2adeb525a010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2adeb575a010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2adeb5c5a010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2adeb615a010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2adeb665a010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2adeb6b5a010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2adeb705a010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2adeb755a010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2adeb7a5a010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2adeb7f5a010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2adeb845a010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2adeb895a010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2adeb8e5a010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2adeb935a010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2adeb985a010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2adeb9d5a010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2adeba25a010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2adeba75a010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2adebac5a010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2adebb15a010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2adebb65a010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.441963(s), bandwidth: 76.284897 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.343050] [c100-002:185234:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.357044] [c100-002:185234:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b184e784010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b184ec84010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b184f184010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b184f684010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b184fb84010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b1850084010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b1850584010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b1850a84010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b1850f84010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b1851484010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b1851984010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b1851e84010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b1852384010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b1852884010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b1852d84010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b1853284010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b1853784010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b1853c84010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b1854184010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b1854684010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b1854b84010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.476808(s), bandwidth: 74.484970 MB/s
+[1674337081.355832] [c100-002:185261:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.369925] [c100-002:185261:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b94412b7010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b94417b7010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b9441cb7010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b94421b7010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b94426b7010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b9442bb7010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b94430b7010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b94435b7010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b9443ab7010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b9443fb7010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b94444b7010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b94449b7010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b9444eb7010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b94453b7010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b94458b7010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b9445db7010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b94462b7010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b94467b7010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b9446cb7010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b94471b7010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b94476b7010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.466829(s), bandwidth: 74.991699 MB/s
+[1674337081.358605] [c100-002:185275:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373793] [c100-002:185275:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b9d27e66010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b9d28366010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b9d28866010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b9d28d66010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b9d29266010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b9d29766010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b9d29c66010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b9d2a166010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b9d2a666010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b9d2ab66010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b9d2b066010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b9d2b566010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b9d2ba66010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b9d2bf66010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b9d2c466010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b9d2c966010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b9d2ce66010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b9d2d366010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b9d2d866010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b9d2dd66010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b9d2e266010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.495264(s), bandwidth: 73.565605 MB/s
+[1674337081.359258] [c100-002:185281:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373723] [c100-002:185281:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2afe6b5d5010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2afe6bad5010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2afe6bfd5010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2afe6c4d5010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2afe6c9d5010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2afe6ced5010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2afe6d3d5010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2afe6d8d5010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2afe6ddd5010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2afe6e2d5010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2afe6e7d5010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2afe6ecd5010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2afe6f1d5010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2afe6f6d5010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2afe6fbd5010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2afe700d5010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2afe705d5010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2afe70ad5010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2afe70fd5010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2afe714d5010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2afe719d5010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.508834(s), bandwidth: 72.903976 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.338806] [c100-002:185239:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.350670] [c100-002:185239:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ad689304010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ad689804010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ad689d04010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ad68a204010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ad68a704010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ad68ac04010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ad68b104010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ad68b604010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ad68bb04010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ad68c004010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ad68c504010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ad68ca04010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ad68cf04010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ad68d404010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ad68d904010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ad68de04010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ad68e304010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ad68e804010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ad68ed04010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ad68f204010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ad68f704010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.590443(s), bandwidth: 69.163116 MB/s
+[1674337081.353622] [c100-002:185254:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.367961] [c100-002:185254:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b92224a9010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b92229a9010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b9222ea9010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b92233a9010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b92238a9010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b9223da9010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b92242a9010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b92247a9010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b9224ca9010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b92251a9010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b92256a9010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b9225ba9010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b92260a9010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b92265a9010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b9226aa9010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b9226fa9010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b92274a9010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b92279a9010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b9227ea9010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b92283a9010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b92288a9010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.573034(s), bandwidth: 69.928558 MB/s
+[1674337081.358207] [c100-002:185274:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.372707] [c100-002:185274:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b7f4666c010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b7f46b6c010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b7f4706c010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b7f4756c010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b7f47a6c010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b7f47f6c010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b7f4846c010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b7f4896c010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b7f48e6c010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b7f4936c010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b7f4986c010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b7f49d6c010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b7f4a26c010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b7f4a76c010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b7f4ac6c010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b7f4b16c010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b7f4b66c010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b7f4bb6c010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b7f4c06c010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b7f4c56c010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b7f4ca6c010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.563587(s), bandwidth: 70.351059 MB/s
+[1674337081.359748] [c100-002:185279:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374655] [c100-002:185279:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ae6718f6010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ae671df6010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ae6722f6010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ae6727f6010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ae672cf6010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ae6731f6010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ae6736f6010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ae673bf6010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ae6740f6010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ae6745f6010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ae674af6010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ae674ff6010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ae6754f6010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ae6759f6010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ae675ef6010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ae6763f6010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ae6768f6010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ae676df6010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ae6772f6010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ae6777f6010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ae677cf6010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.561956(s), bandwidth: 70.424515 MB/s
+[1674337081.359659] [c100-002:185276:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374196] [c100-002:185276:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2af8d31b3010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2af8d36b3010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2af8d3bb3010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2af8d40b3010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2af8d45b3010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2af8d4ab3010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2af8d4fb3010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2af8d54b3010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2af8d59b3010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2af8d5eb3010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2af8d63b3010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2af8d68b3010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2af8d6db3010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2af8d72b3010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2af8d77b3010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2af8d7cb3010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2af8d81b3010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2af8d86b3010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2af8d8bb3010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2af8d90b3010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2af8d95b3010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.567831(s), bandwidth: 70.160622 MB/s
+[1674337081.357680] [c100-002:185265:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.372029] [c100-002:185265:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2adbea529010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2adbeaa29010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2adbeaf29010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2adbeb429010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2adbeb929010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2adbebe29010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2adbec329010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2adbec829010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2adbecd29010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2adbed229010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2adbed729010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2adbedc29010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2adbee129010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2adbee629010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2adbeeb29010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2adbef029010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2adbef529010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2adbefa29010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2adbeff29010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2adbf0429010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2adbf0929010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.573706(s), bandwidth: 69.898697 MB/s
+[1674337081.359118] [c100-002:185270:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373964] [c100-002:185270:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b9c2dc02010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b9c2e102010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b9c2e602010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b9c2eb02010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b9c2f002010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b9c2f502010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b9c2fa02010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b9c2ff02010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b9c30402010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b9c30902010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b9c30e02010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b9c31302010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b9c31802010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b9c31d02010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b9c32202010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b9c32702010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b9c32c02010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b9c33102010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b9c33602010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b9c33b02010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b9c34002010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.574068(s), bandwidth: 69.882622 MB/s
+[1674337081.359052] [c100-002:185282:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373131] [c100-002:185282:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ae227744010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ae227c44010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ae228144010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ae228644010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ae228b44010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ae229044010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ae229544010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ae229a44010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ae229f44010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ae22a444010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ae22a944010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ae22ae44010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ae22b344010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ae22b844010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ae22bd44010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ae22c244010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ae22c744010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ae22cc44010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ae22d144010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ae22d644010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ae22db44010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.571707(s), bandwidth: 69.987602 MB/s
+[1674337081.359946] [c100-002:185283:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373201] [c100-002:185283:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2acf182f8010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2acf187f8010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2acf18cf8010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2acf191f8010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2acf196f8010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2acf19bf8010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2acf1a0f8010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2acf1a5f8010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2acf1aaf8010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2acf1aff8010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2acf1b4f8010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2acf1b9f8010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2acf1bef8010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2acf1c3f8010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2acf1c8f8010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2acf1cdf8010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2acf1d2f8010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2acf1d7f8010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2acf1dcf8010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2acf1e1f8010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2acf1e6f8010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.570744(s), bandwidth: 70.030510 MB/s
+[1674337081.347781] [c100-002:185235:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.361943] [c100-002:185235:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b4854103010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b4854603010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b4854b03010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b4855003010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b4855503010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b4855a03010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b4855f03010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b4856403010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b4856903010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b4856e03010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b4857303010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b4857803010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b4857d03010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b4858203010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b4858703010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b4858c03010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b4859103010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b4859603010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b4859b03010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b485a003010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b485a503010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.595135(s), bandwidth: 68.959679 MB/s
+[1674337081.354691] [c100-002:185260:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.369256] [c100-002:185260:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b2e56fcc010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b2e574cc010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b2e579cc010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b2e57ecc010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b2e583cc010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b2e588cc010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b2e58dcc010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b2e592cc010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b2e597cc010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b2e59ccc010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b2e5a1cc010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b2e5a6cc010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b2e5abcc010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b2e5b0cc010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b2e5b5cc010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b2e5bacc010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b2e5bfcc010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b2e5c4cc010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b2e5c9cc010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b2e5cecc010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b2e5d3cc010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.582152(s), bandwidth: 69.525558 MB/s
+[1674337081.350791] [c100-002:185259:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.363240] [c100-002:185259:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b1217f4a010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b121844a010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b121894a010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b1218e4a010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b121934a010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b121984a010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b1219d4a010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b121a24a010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b121a74a010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b121ac4a010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b121b14a010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b121b64a010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b121bb4a010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b121c04a010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b121c54a010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b121ca4a010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b121cf4a010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b121d44a010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b121d94a010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b121de4a010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b121e34a010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.597416(s), bandwidth: 68.861206 MB/s
+[1674337081.358801] [c100-002:185263:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.372304] [c100-002:185263:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b6f588b9010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b6f58db9010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b6f592b9010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b6f597b9010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b6f59cb9010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b6f5a1b9010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b6f5a6b9010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b6f5abb9010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b6f5b0b9010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b6f5b5b9010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b6f5bab9010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b6f5bfb9010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b6f5c4b9010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b6f5c9b9010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b6f5ceb9010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b6f5d3b9010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b6f5d8b9010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b6f5ddb9010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b6f5e2b9010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b6f5e7b9010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b6f5ecb9010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.576044(s), bandwidth: 69.795006 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.360176] [c100-002:185280:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374335] [c100-002:185280:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2aee4d176010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2aee4d676010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2aee4db76010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2aee4e076010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2aee4e576010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2aee4ea76010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2aee4ef76010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2aee4f476010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2aee4f976010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2aee4fe76010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2aee50376010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2aee50876010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2aee50d76010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2aee51276010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2aee51776010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2aee51c76010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2aee52176010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2aee52676010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2aee52b76010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2aee53076010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2aee53576010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.740190(s), bandwidth: 63.211487 MB/s
+[1674337081.353057] [c100-002:185255:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.366624] [c100-002:185255:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2add1277e010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2add12c7e010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2add1317e010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2add1367e010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2add13b7e010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2add1407e010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2add1457e010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2add14a7e010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2add14f7e010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2add1547e010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2add1597e010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2add15e7e010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2add1637e010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2add1687e010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2add16d7e010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2add1727e010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2add1777e010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2add17c7e010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2add1817e010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2add1867e010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2add18b7e010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.748112(s), bandwidth: 62.925030 MB/s
+[1674337081.359514] [c100-002:185267:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374265] [c100-002:185267:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2af6f77f1010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2af6f7cf1010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2af6f81f1010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2af6f86f1010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2af6f8bf1010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2af6f90f1010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2af6f95f1010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2af6f9af1010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2af6f9ff1010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2af6fa4f1010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2af6fa9f1010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2af6faef1010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2af6fb3f1010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2af6fb8f1010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2af6fbdf1010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2af6fc2f1010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2af6fc7f1010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2af6fccf1010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2af6fd1f1010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2af6fd6f1010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2af6fdbf1010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.743733(s), bandwidth: 63.083050 MB/s
+[1674337081.347629] [c100-002:185244:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.361453] [c100-002:185244:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2adf4bc67010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2adf4c167010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2adf4c667010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2adf4cb67010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2adf4d067010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2adf4d567010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2adf4da67010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2adf4df67010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2adf4e467010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2adf4e967010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2adf4ee67010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2adf4f367010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2adf4f867010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2adf4fd67010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2adf50267010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2adf50767010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2adf50c67010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2adf51167010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2adf51667010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2adf51b67010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2adf52067010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.751986(s), bandwidth: 62.785889 MB/s
+[1674337081.349634] [c100-002:185253:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.363927] [c100-002:185253:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ab0e74d5010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ab0e79d5010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ab0e7ed5010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ab0e83d5010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ab0e88d5010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ab0e8dd5010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ab0e92d5010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ab0e97d5010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ab0e9cd5010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ab0ea1d5010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ab0ea6d5010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ab0eabd5010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ab0eb0d5010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ab0eb5d5010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ab0ebad5010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ab0ebfd5010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ab0ec4d5010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ab0ec9d5010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ab0eced5010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ab0ed3d5010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ab0ed8d5010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.749491(s), bandwidth: 62.875431 MB/s
+[1674337081.347955] [c100-002:185243:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.362514] [c100-002:185243:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ba1ed711010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ba1edc11010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ba1ee111010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ba1ee611010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ba1eeb11010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ba1ef011010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ba1ef511010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ba1efa11010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ba1eff11010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ba1f0411010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ba1f0911010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ba1f0e11010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ba1f1311010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ba1f1811010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ba1f1d11010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ba1f2211010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ba1f2711010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ba1f2c11010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ba1f3111010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ba1f3611010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ba1f3b11010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.758719(s), bandwidth: 62.545525 MB/s
+[1674337081.348398] [c100-002:185257:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.361318] [c100-002:185257:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2aca97bbf010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2aca980bf010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2aca985bf010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2aca98abf010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2aca98fbf010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2aca994bf010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2aca999bf010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2aca99ebf010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2aca9a3bf010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2aca9a8bf010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2aca9adbf010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2aca9b2bf010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2aca9b7bf010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2aca9bcbf010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2aca9c1bf010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2aca9c6bf010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2aca9cbbf010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2aca9d0bf010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2aca9d5bf010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2aca9dabf010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2aca9dfbf010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.764635(s), bandwidth: 62.335838 MB/s
+[1674337081.342229] [c100-002:185246:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.357437] [c100-002:185246:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b36b0c23010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b36b1123010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b36b1623010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b36b1b23010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b36b2023010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b36b2523010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b36b2a23010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b36b2f23010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b36b3423010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b36b3923010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b36b3e23010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b36b4323010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b36b4823010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b36b4d23010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b36b5223010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b36b5723010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b36b5c23010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b36b6123010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b36b6623010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b36b6b23010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b36b7023010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.768132(s), bandwidth: 62.212551 MB/s
+[1674337081.339658] [c100-002:185236:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.352292] [c100-002:185236:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2adf2affe010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2adf2b4fe010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2adf2b9fe010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2adf2befe010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2adf2c3fe010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2adf2c8fe010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2adf2cdfe010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2adf2d2fe010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2adf2d7fe010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2adf2dcfe010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2adf2e1fe010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2adf2e6fe010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2adf2ebfe010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2adf2f0fe010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2adf2f5fe010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2adf2fafe010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2adf2fffe010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2adf304fe010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2adf309fe010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2adf30efe010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2adf313fe010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.777281(s), bandwidth: 61.892292 MB/s
+[1674337081.357942] [c100-002:185264:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.371642] [c100-002:185264:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b78e28eb010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b78e2deb010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b78e32eb010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b78e37eb010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b78e3ceb010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b78e41eb010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b78e46eb010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b78e4beb010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b78e50eb010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b78e55eb010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b78e5aeb010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b78e5feb010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b78e64eb010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b78e69eb010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b78e6eeb010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b78e73eb010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b78e78eb010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b78e7deb010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b78e82eb010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b78e87eb010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b78e8ceb010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.753371(s), bandwidth: 62.736294 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.359836] [c100-002:185277:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374737] [c100-002:185277:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ae950865010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ae950d65010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ae951265010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ae951765010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ae951c65010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ae952165010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ae952665010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ae952b65010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ae953065010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ae953565010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ae953a65010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ae953f65010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ae954465010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ae954965010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ae954e65010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ae955365010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ae955865010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ae955d65010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ae956265010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ae956765010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ae956c65010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.835734(s), bandwidth: 59.921535 MB/s
+[1674337081.358988] [c100-002:185272:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373666] [c100-002:185272:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b91f8a83010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b91f8f83010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b91f9483010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b91f9983010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b91f9e83010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b91fa383010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b91fa883010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b91fad83010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b91fb283010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b91fb783010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b91fbc83010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b91fc183010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b91fc683010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b91fcb83010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b91fd083010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b91fd583010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b91fda83010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b91fdf83010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b91fe483010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b91fe983010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b91fee83010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.832509(s), bandwidth: 60.026989 MB/s
+[1674337081.350254] [c100-002:185249:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.363859] [c100-002:185249:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b756a5e4010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b756aae4010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b756afe4010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b756b4e4010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b756b9e4010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b756bee4010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b756c3e4010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b756c8e4010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b756cde4010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b756d2e4010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b756d7e4010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b756dce4010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b756e1e4010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b756e6e4010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b756ebe4010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b756f0e4010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b756f5e4010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b756fae4010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b756ffe4010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b75704e4010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b75709e4010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.859913(s), bandwidth: 59.142551 MB/s
+[1674337081.360103] [c100-002:185271:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.375188] [c100-002:185271:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b801c6c1010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b801cbc1010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b801d0c1010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b801d5c1010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b801dac1010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b801dfc1010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b801e4c1010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b801e9c1010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b801eec1010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b801f3c1010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b801f8c1010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b801fdc1010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b80202c1010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b80207c1010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b8020cc1010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b80211c1010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b80216c1010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b8021bc1010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b80220c1010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b80225c1010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b8022ac1010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.844228(s), bandwidth: 59.645554 MB/s
+[1674337081.358729] [c100-002:185266:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.373268] [c100-002:185266:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ae09897e010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ae098e7e010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ae09937e010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ae09987e010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ae099d7e010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ae09a27e010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ae09a77e010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ae09ac7e010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ae09b17e010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ae09b67e010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ae09bb7e010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ae09c07e010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ae09c57e010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ae09ca7e010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ae09cf7e010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ae09d47e010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ae09d97e010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ae09de7e010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ae09e37e010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ae09e87e010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ae09ed7e010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.848127(s), bandwidth: 59.519718 MB/s
+[1674337081.341776] [c100-002:185247:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.356181] [c100-002:185247:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b4190843010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b4190d43010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b4191243010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b4191743010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b4191c43010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b4192143010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b4192643010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b4192b43010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b4193043010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b4193543010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b4193a43010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b4193f43010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b4194443010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b4194943010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b4194e43010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b4195343010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b4195843010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b4195d43010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b4196243010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b4196743010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b4196c43010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.865114(s), bandwidth: 58.977631 MB/s
+[1674337081.352692] [c100-002:185258:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.366900] [c100-002:185258:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b947c1fb010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b947c6fb010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b947cbfb010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b947d0fb010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b947d5fb010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b947dafb010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b947dffb010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b947e4fb010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b947e9fb010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b947eefb010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b947f3fb010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b947f8fb010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b947fdfb010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b94802fb010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b94807fb010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b9480cfb010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b94811fb010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b94816fb010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b9481bfb010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b94820fb010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b94825fb010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.843387(s), bandwidth: 59.672764 MB/s
+[1674337081.360490] [c100-002:185262:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.375299] [c100-002:185262:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b6abc8e4010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b6abcde4010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b6abd2e4010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b6abd7e4010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b6abdce4010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b6abe1e4010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b6abe6e4010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b6abebe4010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b6abf0e4010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b6abf5e4010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b6abfae4010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b6abffe4010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b6ac04e4010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b6ac09e4010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b6ac0ee4010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b6ac13e4010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b6ac18e4010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b6ac1de4010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b6ac22e4010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b6ac27e4010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b6ac2ce4010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.843297(s), bandwidth: 59.675678 MB/s
+[1674337081.344896] [c100-002:185256:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.359576] [c100-002:185256:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2aeff8ff6010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2aeff94f6010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2aeff99f6010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2aeff9ef6010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2aeffa3f6010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2aeffa8f6010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2aeffadf6010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2aeffb2f6010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2aeffb7f6010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2aeffbcf6010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2aeffc1f6010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2aeffc6f6010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2aeffcbf6010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2aeffd0f6010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2aeffd5f6010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2aeffdaf6010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2aeffdff6010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2aeffe4f6010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2aeffe9f6010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2aeffeef6010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2aefff3f6010
+Server: iteration #21 client idx #0
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+received FIN message
+total transfer size: 110(MB); delta_s: 1.863144(s), bandwidth: 59.039986 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.361111] [c100-002:185278:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.375612] [c100-002:185278:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b8e16366010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b8e16866010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b8e16d66010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b8e17266010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b8e17766010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b8e17c66010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b8e18166010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b8e18666010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b8e18b66010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b8e19066010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b8e19566010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b8e19a66010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b8e19f66010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b8e1a466010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b8e1a966010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b8e1ae66010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b8e1b366010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b8e1b866010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b8e1bd66010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b8e1c266010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b8e1c766010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.905744(s), bandwidth: 57.720242 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674337081.344736] [c100-002:185240:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.358662] [c100-002:185240:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b4a0e1bf010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b4a0e6bf010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b4a0ebbf010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b4a0f0bf010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b4a0f5bf010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b4a0fabf010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b4a0ffbf010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b4a104bf010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b4a109bf010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b4a10ebf010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b4a113bf010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b4a118bf010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b4a11dbf010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b4a122bf010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b4a127bf010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b4a12cbf010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b4a131bf010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b4a136bf010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b4a13bbf010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b4a140bf010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b4a145bf010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.948790(s), bandwidth: 56.445282 MB/s
+[1674337081.360427] [c100-002:185273:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.374407] [c100-002:185273:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2b833cb5d010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2b833d05d010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2b833d55d010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2b833da5d010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2b833df5d010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2b833e45d010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2b833e95d010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2b833ee5d010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2b833f35d010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2b833f85d010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2b833fd5d010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2b834025d010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2b834075d010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2b8340c5d010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2b834115d010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2b834165d010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2b8341b5d010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2b834205d010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2b834255d010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2b8342a5d010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2b8342f5d010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.936448(s), bandwidth: 56.805038 MB/s
+[1674337081.352885] [c100-002:185251:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.367418] [c100-002:185251:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ba021796010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ba021c96010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ba022196010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ba022696010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ba022b96010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ba023096010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ba023596010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ba023a96010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ba023f96010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ba024496010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ba024996010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ba024e96010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ba025396010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ba025896010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ba025d96010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ba026296010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ba026796010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ba026c96010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ba027196010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ba027696010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ba027b96010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.944083(s), bandwidth: 56.581947 MB/s
+[1674337081.355766] [c100-002:185250:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.370306] [c100-002:185250:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2acd90f51010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2acd91451010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2acd91951010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2acd91e51010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2acd92351010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2acd92851010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2acd92d51010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2acd93251010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2acd93751010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2acd93c51010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2acd94151010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2acd94651010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2acd94b51010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2acd95051010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2acd95551010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2acd95a51010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2acd95f51010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2acd96451010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2acd96951010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2acd96e51010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2acd97351010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.951053(s), bandwidth: 56.379810 MB/s
+[1674337081.352521] [c100-002:185252:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674337081.366833] [c100-002:185252:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+buffer malloc for client idx #0, current iter #0, ptr #0x2ba638e25010
+Client: iteration #1
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #1, ptr #0x2ba639325010
+Client: iteration #2
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #2, ptr #0x2ba639825010
+Client: iteration #3
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #3, ptr #0x2ba639d25010
+Client: iteration #4
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #4, ptr #0x2ba63a225010
+Client: iteration #5
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #5, ptr #0x2ba63a725010
+Client: iteration #6
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #6, ptr #0x2ba63ac25010
+Client: iteration #7
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #7, ptr #0x2ba63b125010
+Client: iteration #8
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #8, ptr #0x2ba63b625010
+Client: iteration #9
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #9, ptr #0x2ba63bb25010
+Client: iteration #10
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #10, ptr #0x2ba63c025010
+Client: iteration #11
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #11, ptr #0x2ba63c525010
+Client: iteration #12
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #12, ptr #0x2ba63ca25010
+Client: iteration #13
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #13, ptr #0x2ba63cf25010
+Client: iteration #14
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #14, ptr #0x2ba63d425010
+Client: iteration #15
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #15, ptr #0x2ba63d925010
+Client: iteration #16
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #16, ptr #0x2ba63de25010
+Client: iteration #17
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #17, ptr #0x2ba63e325010
+Client: iteration #18
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #18, ptr #0x2ba63e825010
+Client: iteration #19
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #19, ptr #0x2ba63ed25010
+Client: iteration #20
+
+
+------------------------------
+
+buffer malloc for client idx #0, current iter #20, ptr #0x2ba63f225010
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.952127(s), bandwidth: 56.348793 MB/s
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
