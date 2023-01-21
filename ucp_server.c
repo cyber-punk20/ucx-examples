@@ -1,5 +1,7 @@
 #include <ucp/api/ucp.h>
 #include "ucp_common.h"
+#include "ucp_common_utils.h"
+
 #include "thread_pool.h"
 
 #include <thread>
@@ -27,6 +29,7 @@ typedef struct ucx_server_ctx {
     std::queue<ucp_conn_request_h> context_queue;
     std::mutex context_queue_mutex;
     std::condition_variable context_queue_condition;
+    unsigned int client_idx = 0;
 } ucx_server_ctx_t;
 
 
@@ -164,6 +167,11 @@ static void* server_progress(void* args) {
     return NULL;
 }
 
+static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
+    void* ptr = mem_type_malloc(client_cnt * mem_size_per_client);
+    return ptr;
+}
+
 // MAIN THREAD
 static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
                       char *listen_addr, send_recv_type_t send_recv_type)
@@ -171,13 +179,13 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     ucx_server_ctx_t context;
     ucs_status_t     status;
     int              ret;
-
+    
     const unsigned int number_of_threads = std::thread::hardware_concurrency();
     ThreadPool pool(number_of_threads);
 
 
     
-    
+    void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, total_transfer_size);
     
     /* Create a listener on the worker created at first. The 'connection
      * worker' - used for connection establishment between client and server.
@@ -195,14 +203,19 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     int listener_thread = pthread_create(&server_listener_thread_id, NULL, &server_progress, &ucp_worker);
     while (1) {
         ucp_conn_request_h conn_request = NULL;
+        unsigned int client_idx = 0;
         {
             std::unique_lock<std::mutex> lock(context.context_queue_mutex);
             context.context_queue_condition.wait(lock,
                 [&context]{ return !context.context_queue.empty(); });
             conn_request = std::move(context.context_queue.front());
             context.context_queue.pop();
+            context.client_idx++;
+            client_idx = context.client_idx;
         }
-        pool.enqueue([ucp_context, conn_request, send_recv_type]() { 
+        
+        pool.enqueue([ucp_context, conn_request, send_recv_type, client_idx, ptr]() { 
+            printf("deal with connection client idx #%d\n", client_idx);
             ucs_status_t     status;
             int              ret;
             ucp_worker_h     ucp_data_worker;
@@ -239,6 +252,8 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
             * to the next client */
             ret = client_server_do_work(ucp_data_worker, server_ep, send_recv_type, 
                                         &am_data_desc,
+                                        client_idx,
+                                        ptr,
                                         1);
             if (ret != 0) {
                 goto err_ep;
@@ -257,6 +272,8 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
         
         
     }
+    pthread_join(listener_thread, NULL);
+    mem_type_free(ptr);
 err_listener:
     ucp_listener_destroy(context.listener);
 
@@ -265,14 +282,11 @@ err_listener:
 
 int mpi_rank, nServer=0;	// rank and size of MPI
 
-static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
-    void* ptr = malloc(client_cnt * mem_size_per_client);
-    return ptr;
-}
 
-static void* get_memory_addr(void* ptr, int client_idx, int mem_size_per_client) {
-    return (ptr + client_idx * mem_size_per_client);
-}
+
+// static void* get_memory_addr(void* ptr, int client_idx, int mem_size_per_client) {
+//     return (ptr + client_idx * mem_size_per_client);
+// }
 
 int main(int argc, char ** argv) {
     MPI_Init(NULL, NULL);
@@ -285,12 +299,12 @@ int main(int argc, char ** argv) {
     ucp_worker_h  ucp_worker;
     /* Initialize the UCX required objects */
     ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
-    void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, MEM_PER_CLIENT);
-    if (ret != 0 || ptr == NULL) {
+    
+    if (ret != 0 /*|| ptr == NULL*/) {
         goto err;
     }
     ret = run_server(ucp_context, ucp_worker, listen_addr, send_recv_type);
-    free(ptr);
+    
 err:
     return ret;
 

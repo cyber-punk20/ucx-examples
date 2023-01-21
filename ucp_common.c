@@ -11,7 +11,7 @@ sa_family_t ai_family   = AF_INET;
 uint16_t server_port    = DEFAULT_PORT;
 static int num_iterations      = DEFAULT_NUM_ITERATIONS;
 static int connection_closed   = 1;
-long total_transfer_size = num_iterations * iov_cnt * test_string_length;
+long total_transfer_size = (num_iterations + 2) * iov_cnt * test_string_length;
 
 typedef struct test_req {
     int complete;
@@ -154,9 +154,9 @@ static void check_iov(const ucp_dt_iov_t *iov) {
     }
 }
 
-static void check_result(int is_server, const ucp_dt_iov_t *iov, int current_iter) {
+static void check_result(int is_server, const ucp_dt_iov_t *iov, unsigned int client_idx, int current_iter) {
     if (is_server) {
-        printf("Server: iteration #%d\n", (current_iter + 1));
+        printf("Server: iteration #%d client idx #%d\n", (current_iter + 1), client_idx);
         printf("UCX data message was received\n");
         printf("\n\n----- UCP TEST SUCCESS -------\n\n");
         check_iov(iov);
@@ -164,25 +164,26 @@ static void check_result(int is_server, const ucp_dt_iov_t *iov, int current_ite
         printf("Client: iteration #%d\n", (current_iter + 1));
         printf("\n\n------------------------------\n\n");
     }
-    printf("\n\n------------------------------\n\n");
 }
 
 void buffer_free(ucp_dt_iov_t *iov)
 {
-    size_t idx;
+    // size_t idx;
 
-    for (idx = 0; idx < iov_cnt; idx++) {
-        mem_type_free(iov[idx].buffer);
-    }
+    // for (idx = 0; idx < iov_cnt; idx++) {
+    //     mem_type_free(iov[idx].buffer);
+    // }
+    // free(iov);
 }
 
-int buffer_malloc(ucp_dt_iov_t *iov)
+int buffer_malloc(ucp_dt_iov_t *iov, unsigned int client_idx, void* ptr, int current_iter)
 {
     size_t idx;
-
+    
     for (idx = 0; idx < iov_cnt; idx++) {
         iov[idx].length = test_string_length;
-        iov[idx].buffer = mem_type_malloc(iov[idx].length);
+        iov[idx].buffer = (char *)ptr + client_idx * total_transfer_size + current_iter * iov_cnt * test_string_length + idx * test_string_length;
+        printf("buffer malloc for client idx #%d, current iter #%d, ptr #%p\n", client_idx, current_iter, iov[idx].buffer);
         if (iov[idx].buffer == NULL) {
             buffer_free(iov);
             return -1;
@@ -281,11 +282,13 @@ int init_worker(ucp_context_h ucp_context, ucp_worker_h *ucp_worker)
 }
 
 static int
-fill_request_param(ucp_dt_iov_t *iov, int is_client,
+fill_request_param(ucp_dt_iov_t *iov, 
+                   unsigned int client_idx, void* ptr, int current_iter,
+                   int is_client,
                    void **msg, size_t *msg_length,
                    test_req_t *ctx, ucp_request_param_t *param)
 {
-    CHKERR_ACTION(buffer_malloc(iov) != 0, "allocate memory", return -1;);
+    CHKERR_ACTION(buffer_malloc(iov, client_idx, ptr, current_iter) != 0, "allocate memory", return -1;);
 
     if (is_client && (fill_buffer(iov) != 0)) {
         buffer_free(iov);
@@ -486,7 +489,7 @@ static ucs_status_t request_wait(ucp_worker_h ucp_worker, void *request,
 }
 
 static int request_finalize(ucp_worker_h ucp_worker, test_req_t *request,
-                            test_req_t *ctx, int is_server, ucp_dt_iov_t *iov,
+                            test_req_t *ctx, unsigned int client_idx, int is_server, ucp_dt_iov_t *iov,
                             int current_iter)
 {
     int ret = 0;
@@ -505,7 +508,7 @@ static int request_finalize(ucp_worker_h ucp_worker, test_req_t *request,
         if ((current_iter == 0) || (current_iter == (num_iterations - 1)) ||
             !((current_iter + 1) % (PRINT_INTERVAL))) {
             // print_result(is_server, iov, current_iter);
-            check_result(is_server, iov, current_iter);
+            check_result(is_server, iov, client_idx, current_iter);
         }
     }
     
@@ -521,7 +524,10 @@ release_iov:
  * The server gets a message from the client and if it is rendezvous request,
  * initiates receive operation.
  */
-static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_data_desc_p, int is_server,
+static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_data_desc_p, 
+                        unsigned int client_idx, 
+                        void* ptr,
+                        int is_server,
                         int current_iter)
 {
     ucp_dt_iov_t *iov = (ucp_dt_iov_t *)alloca(iov_cnt * sizeof(ucp_dt_iov_t));
@@ -532,7 +538,7 @@ static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_d
     test_req_t ctx;
     memset(iov, 0, iov_cnt * sizeof(*iov));
 
-    if (fill_request_param(iov, !is_server, &msg, &msg_length,
+    if (fill_request_param(iov, client_idx, ptr, current_iter, !is_server, &msg, &msg_length,
                            &ctx, &params) != 0) {
         return -1;
     }
@@ -568,7 +574,7 @@ static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_d
                                          msg_length, &params);
     }
 
-    return request_finalize(ucp_worker, request, &ctx, is_server, iov,
+    return request_finalize(ucp_worker, request, &ctx, client_idx, is_server, iov,
                             current_iter);
 }
 
@@ -577,7 +583,10 @@ static int send_recv_am(ucp_worker_h ucp_worker, ucp_ep_h ep, AM_DATA_DESC* am_d
  * The client sends a message to the server and waits until the send it completed.
  * The server receives a message from the client and waits for its completion.
  */
-static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
+static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, 
+                            unsigned int client_idx, 
+                            void* ptr,
+                            int is_server,
                             int current_iter)
 {
     ucp_dt_iov_t *iov = (ucp_dt_iov_t *)alloca(iov_cnt * sizeof(ucp_dt_iov_t));
@@ -589,7 +598,7 @@ static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
 
     memset(iov, 0, iov_cnt * sizeof(*iov));
 
-    if (fill_request_param(iov, !is_server, &msg, &msg_length,
+    if (fill_request_param(iov, client_idx, ptr, current_iter, !is_server, &msg, &msg_length,
                            &ctx, &param) != 0) {
         return -1;
     }
@@ -607,7 +616,7 @@ static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
                                                    &msg_length, &param);
     }
 
-    return request_finalize(ucp_worker, request, &ctx, is_server, iov,
+    return request_finalize(ucp_worker, request, &ctx, client_idx, is_server, iov,
                             current_iter);
 }
 
@@ -615,6 +624,8 @@ static int send_recv_stream(ucp_worker_h ucp_worker, ucp_ep_h ep, int is_server,
 static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep, 
                                         send_recv_type_t send_recv_type, 
                                         AM_DATA_DESC* am_data_desc_p,
+                                        unsigned int client_idx,
+                                        void* ptr,
                                         int is_server, int current_iter)
 {
     int ret;
@@ -622,7 +633,7 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     switch (send_recv_type) {
     case CLIENT_SERVER_SEND_RECV_STREAM:
         /* Client-Server communication via Stream API */
-        ret = send_recv_stream(worker, ep, is_server, current_iter);
+        ret = send_recv_stream(worker, ep, client_idx, ptr, is_server, current_iter);
         break;
     // case CLIENT_SERVER_SEND_RECV_TAG:
     //     /* Client-Server communication via Tag-Matching API */
@@ -630,7 +641,7 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     //     break;
     case CLIENT_SERVER_SEND_RECV_AM:
         /* Client-Server communication via AM API. */
-        ret = send_recv_am(worker, ep, am_data_desc_p, is_server, current_iter);
+        ret = send_recv_am(worker, ep, am_data_desc_p, client_idx, ptr, is_server, current_iter);
         break;
     default:
         fprintf(stderr, "unknown send-recv type %d\n", send_recv_type);
@@ -640,7 +651,11 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     return ret;
 }
 
-int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, AM_DATA_DESC* am_data_desc_p, int is_server)
+int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t send_recv_type, 
+                          AM_DATA_DESC* am_data_desc_p, 
+                          unsigned int client_idx,
+                          void* ptr,
+                          int is_server)
 {
     int i, ret = 0;
     ucs_status_t status;
@@ -650,6 +665,8 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t
     for (i = 0; i < num_iterations; i++) {
         ret = client_server_communication(ucp_worker, ep, send_recv_type,
                                           am_data_desc_p,
+                                          client_idx,
+                                          ptr,
                                           is_server, i);
         if (ret != 0) {
             fprintf(stderr, "%s failed on iteration #%d\n",
@@ -669,7 +686,9 @@ int client_server_do_work(ucp_worker_h ucp_worker, ucp_ep_h ep, send_recv_type_t
 
     /* FIN message in reverse direction to acknowledge delivery */
     ret = client_server_communication(ucp_worker, ep, send_recv_type, am_data_desc_p,
-                                      !is_server, i + 1);
+                                      client_idx,
+                                      ptr,
+                                      !is_server, i);
     if (ret != 0) {
         fprintf(stderr, "%s failed on FIN message\n",
                 (is_server ? "server": "client"));

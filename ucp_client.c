@@ -1,5 +1,5 @@
 #include "ucp_common.h"
-
+#include "ucp_common_utils.h"
 
 #include <string.h>    /* memset */
 #include <arpa/inet.h> /* inet_addr */
@@ -70,13 +70,15 @@ static int run_client(ucp_worker_h ucp_worker, char *server_addr,
     {
         struct timeval end, start;
         AM_DATA_DESC am_data_desc = {0, 0, NULL, NULL};
+        void* ptr = mem_type_malloc(total_transfer_size);
         gettimeofday(&start, NULL);
-        ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, &am_data_desc, 0);
+        ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, &am_data_desc, 0, ptr, 0);
         gettimeofday(&end, NULL);
         float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
         printf("total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", total_transfer_size / (1024 * 1024), delta_s, total_transfer_size / delta_s / (1024 * 1024)); 
         /* Close the endpoint to the server */
         ep_close(ucp_worker, client_ep, UCP_EP_CLOSE_MODE_FLUSH);
+        mem_type_free(ptr);
     }
 out:
     return ret;
