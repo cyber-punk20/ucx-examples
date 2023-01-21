@@ -167,10 +167,10 @@ static void* server_progress(void* args) {
     return NULL;
 }
 
-// static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
-//     void* ptr = mem_type_malloc(client_cnt * mem_size_per_client);
-//     return ptr;
-// }
+static void* allocate_memory_for_rma(int client_cnt, int mem_size_per_client) {
+    void* ptr = mem_type_malloc(client_cnt * mem_size_per_client);
+    return ptr;
+}
 
 // MAIN THREAD
 static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
@@ -184,9 +184,8 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     ThreadPool pool(number_of_threads);
 
 
-    
+    // void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, total_transfer_size);
     void* ptr = mem_type_malloc(SERVER_MAX_CLIENT_CNT * total_transfer_size);
-    printf("allocate_memory_for_rma %p\n", ptr);
     /* Create a listener on the worker created at first. The 'connection
      * worker' - used for connection establishment between client and server.
      * This listener will stay open for listening to incoming connection
