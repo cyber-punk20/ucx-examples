@@ -1,0 +1,2066 @@
+TACC:  Starting up job 5142540 
+TACC:  Starting parallel tasks... 
+[1674336351.003682] [c100-010:56829:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012492] [c100-010:56829:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 4.387511(s), bandwidth: 45.583935 MB/s
+[1674336351.004873] [c100-010:56844:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012559] [c100-010:56844:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 4.427980(s), bandwidth: 45.167324 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.004774] [c100-010:56835:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012303] [c100-010:56835:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 4.561202(s), bandwidth: 43.848091 MB/s
+[1674336351.010626] [c100-010:56830:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.017426] [c100-010:56830:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 4.790455(s), bandwidth: 41.749687 MB/s
+[1674336351.010862] [c100-010:56833:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.018252] [c100-010:56833:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 4.784810(s), bandwidth: 41.798943 MB/s
+[1674336351.003760] [c100-010:56840:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.013365] [c100-010:56840:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 4.933743(s), bandwidth: 40.537174 MB/s
+[1674336351.005312] [c100-010:56831:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012946] [c100-010:56831:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.102523(s), bandwidth: 39.196297 MB/s
+[1674336351.003454] [c100-010:56837:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012411] [c100-010:56837:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.271060(s), bandwidth: 37.943031 MB/s
+[1674336351.012711] [c100-010:56828:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.021263] [c100-010:56828:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.264613(s), bandwidth: 37.989494 MB/s
+[1674336351.011840] [c100-010:56854:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.019737] [c100-010:56854:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.406390(s), bandwidth: 36.993259 MB/s
+[1674336351.009512] [c100-010:56838:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.017493] [c100-010:56838:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.477723(s), bandwidth: 36.511520 MB/s
+[1674336351.010131] [c100-010:56848:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.017041] [c100-010:56848:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.624304(s), bandwidth: 35.559956 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.012194] [c100-010:56836:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.020120] [c100-010:56836:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.720073(s), bandwidth: 34.964588 MB/s
+[1674336351.010993] [c100-010:56853:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.017721] [c100-010:56853:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 5.741391(s), bandwidth: 34.834763 MB/s
+[1674336351.012018] [c100-010:56847:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.020801] [c100-010:56847:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 5.765396(s), bandwidth: 34.689724 MB/s
+[1674336351.011530] [c100-010:56851:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.019838] [c100-010:56851:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.122790(s), bandwidth: 32.664848 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.011128] [c100-010:56839:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.019659] [c100-010:56839:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.171418(s), bandwidth: 32.407463 MB/s
+[1674336351.011234] [c100-010:56843:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.018028] [c100-010:56843:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 6.180738(s), bandwidth: 32.358597 MB/s
+[1674336351.011469] [c100-010:56855:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.019404] [c100-010:56855:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.230211(s), bandwidth: 32.101643 MB/s
+[1674336351.008847] [c100-010:56852:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.016345] [c100-010:56852:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.364456(s), bandwidth: 31.424522 MB/s
+[1674336351.010333] [c100-010:56849:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.018722] [c100-010:56849:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.593672(s), bandwidth: 30.332113 MB/s
+[1674336351.004328] [c100-010:56841:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.013187] [c100-010:56841:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.676256(s), bandwidth: 29.956909 MB/s
+[1674336351.045894] [c100-009:193106:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.055066] [c100-009:193106:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.802901(s), bandwidth: 29.399223 MB/s
+[1674336351.090545] [c100-009:193140:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.117567] [c100-009:193140:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.823982(s), bandwidth: 29.308401 MB/s
+[1674336351.099075] [c100-009:193183:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120788] [c100-009:193183:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.961024(s), bandwidth: 28.731405 MB/s
+[1674336351.102259] [c100-009:193144:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.122980] [c100-009:193144:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 6.903067(s), bandwidth: 28.972630 MB/s
+[1674336351.096122] [c100-009:193158:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.123450] [c100-009:193158:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.101018(s), bandwidth: 28.164976 MB/s
+[1674336351.008493] [c100-010:56834:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.017278] [c100-010:56834:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.544319(s), bandwidth: 26.510014 MB/s
+[1674336351.051352] [c100-009:193110:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.061235] [c100-009:193110:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.413608(s), bandwidth: 26.977417 MB/s
+[1674336351.048499] [c100-009:193111:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.056779] [c100-009:193111:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.573833(s), bandwidth: 26.406708 MB/s
+[1674336351.012211] [c100-010:56845:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.020221] [c100-010:56845:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.733231(s), bandwidth: 25.862411 MB/s
+[1674336351.086860] [c100-009:193135:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.112599] [c100-009:193135:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.536625(s), bandwidth: 26.537077 MB/s
+[1674336351.052946] [c100-009:193125:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.063921] [c100-009:193125:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.554883(s), bandwidth: 26.472944 MB/s
+[1674336351.043146] [c100-009:193109:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.050223] [c100-009:193109:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.693268(s), bandwidth: 25.996756 MB/s
+[1674336351.011764] [c100-010:56832:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.019336] [c100-010:56832:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.857750(s), bandwidth: 25.452579 MB/s
+[1674336351.095047] [c100-009:193163:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.122863] [c100-009:193163:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.630453(s), bandwidth: 26.210764 MB/s
+[1674336351.095734] [c100-009:193149:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.123570] [c100-009:193149:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 7.691464(s), bandwidth: 26.002851 MB/s
+[1674336351.097395] [c100-009:193093:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.117668] [c100-009:193093:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.105301(s), bandwidth: 24.675209 MB/s
+[1674336351.101821] [c100-009:193151:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.122193] [c100-009:193151:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.032538(s), bandwidth: 24.898729 MB/s
+[1674336351.098391] [c100-009:193177:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.118909] [c100-009:193177:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.176924(s), bandwidth: 24.459076 MB/s
+[1674336351.052475] [c100-009:193108:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.062963] [c100-009:193108:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.479981(s), bandwidth: 23.584957 MB/s
+[1674336351.054389] [c100-009:193115:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.065510] [c100-009:193115:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.015813(s), bandwidth: 24.950682 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.098519] [c100-009:193155:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.118841] [c100-009:193155:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.452534(s), bandwidth: 23.661545 MB/s
+[1674336351.100873] [c100-009:193187:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121775] [c100-009:193187:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.467706(s), bandwidth: 23.619148 MB/s
+[1674336351.048836] [c100-009:193104:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.056403] [c100-009:193104:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.562599(s), bandwidth: 23.357393 MB/s
+[1674336351.086682] [c100-009:193137:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.112238] [c100-009:193137:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 8.535906(s), bandwidth: 23.430437 MB/s
+[1674336351.092673] [c100-009:193139:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120433] [c100-009:193139:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.508956(s), bandwidth: 23.504646 MB/s
+[1674336351.098880] [c100-009:193174:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.119422] [c100-009:193174:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.186202(s), bandwidth: 24.431355 MB/s
+[1674336351.035464] [c100-009:193100:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.047404] [c100-009:193100:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.657141(s), bandwidth: 23.102316 MB/s
+[1674336351.051730] [c100-009:193121:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.061152] [c100-009:193121:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.622680(s), bandwidth: 23.194645 MB/s
+[1674336351.094857] [c100-009:193152:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121978] [c100-009:193152:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.532874(s), bandwidth: 23.438761 MB/s
+[1674336351.096801] [c100-009:193142:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.117510] [c100-009:193142:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.545595(s), bandwidth: 23.403870 MB/s
+[1674336351.090382] [c100-009:193134:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.116614] [c100-009:193134:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.622364(s), bandwidth: 23.195496 MB/s
+[1674336351.101714] [c100-009:193171:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.122497] [c100-009:193171:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.592418(s), bandwidth: 23.276337 MB/s
+[1674336351.096555] [c100-009:193159:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.116811] [c100-009:193159:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.612955(s), bandwidth: 23.220835 MB/s
+[1674336351.091003] [c100-009:193145:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.119656] [c100-009:193145:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.645257(s), bandwidth: 23.134071 MB/s
+[1674336351.004396] [c100-010:56842:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.012865] [c100-010:56842:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.965951(s), bandwidth: 22.306614 MB/s
+[1674336351.099498] [c100-009:193178:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121071] [c100-009:193178:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.757485(s), bandwidth: 22.837606 MB/s
+[1674336351.099138] [c100-009:193190:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120629] [c100-009:193190:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.761516(s), bandwidth: 22.827101 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.053016] [c100-009:193130:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.063863] [c100-009:193130:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.544189(s), bandwidth: 23.407721 MB/s
+[1674336351.054032] [c100-009:193105:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.064806] [c100-009:193105:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.862780(s), bandwidth: 22.566284 MB/s
+[1674336351.082400] [c100-009:193119:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.109009] [c100-009:193119:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 8.872293(s), bandwidth: 22.542086 MB/s
+[1674336351.093104] [c100-009:193150:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120285] [c100-009:193150:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.794530(s), bandwidth: 22.741409 MB/s
+[1674336351.101515] [c100-009:193189:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121845] [c100-009:193189:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.816691(s), bandwidth: 22.684246 MB/s
+[1674336351.101159] [c100-009:193181:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121548] [c100-009:193181:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.816399(s), bandwidth: 22.684999 MB/s
+[1674336351.098606] [c100-009:193168:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120002] [c100-009:193168:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.852571(s), bandwidth: 22.592308 MB/s
+[1674336351.099202] [c100-009:193185:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120500] [c100-009:193185:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.855649(s), bandwidth: 22.584454 MB/s
+[1674336351.092428] [c100-009:193156:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120870] [c100-009:193156:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.896515(s), bandwidth: 22.480713 MB/s
+[1674336351.092366] [c100-009:193148:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120171] [c100-009:193148:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.891737(s), bandwidth: 22.492792 MB/s
+[1674336351.046889] [c100-009:193114:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.055572] [c100-009:193114:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.988768(s), bandwidth: 22.249990 MB/s
+[1674336351.045482] [c100-009:193099:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.054731] [c100-009:193099:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.013999(s), bandwidth: 22.187710 MB/s
+[1674336351.047524] [c100-009:193094:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.056340] [c100-009:193094:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.029376(s), bandwidth: 22.149925 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.101222] [c100-009:193186:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.122561] [c100-009:193186:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 8.933357(s), bandwidth: 22.388000 MB/s
+[1674336351.072088] [c100-009:193117:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.100944] [c100-009:193117:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.026854(s), bandwidth: 22.156115 MB/s
+[1674336351.099336] [c100-009:193169:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.120729] [c100-009:193169:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 8.979934(s), bandwidth: 22.271879 MB/s
+[1674336351.099942] [c100-009:193167:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121443] [c100-009:193167:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.065024(s), bandwidth: 22.062820 MB/s
+[1674336351.078744] [c100-009:193092:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.105754] [c100-009:193092:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.156191(s), bandwidth: 21.843145 MB/s
+[1674336351.100050] [c100-009:193175:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121633] [c100-009:193175:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.124970(s), bandwidth: 21.917879 MB/s
+[1674336351.091328] [c100-009:193136:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.118437] [c100-009:193136:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.186093(s), bandwidth: 21.772041 MB/s
+[1674336351.093813] [c100-009:193154:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121374] [c100-009:193154:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.138769(s), bandwidth: 21.884785 MB/s
+[1674336351.097136] [c100-009:193164:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.119280] [c100-009:193164:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.148899(s), bandwidth: 21.860554 MB/s
+[1674336351.052226] [c100-009:193120:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.061574] [c100-009:193120:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.250318(s), bandwidth: 21.620880 MB/s
+[1674336351.087645] [c100-009:193128:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.112675] [c100-009:193128:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.287303(s), bandwidth: 21.534777 MB/s
+[1674336351.090250] [c100-009:193133:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.115525] [c100-009:193133:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.290453(s), bandwidth: 21.527475 MB/s
+[1674336351.075461] [c100-009:193129:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.103514] [c100-009:193129:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.518108(s), bandwidth: 21.012579 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+[1674336351.011055] [c100-010:56850:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.018858] [c100-010:56850:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 9.727498(s), bandwidth: 20.560272 MB/s
+[1674336351.100197] [c100-009:193172:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121217] [c100-009:193172:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.489197(s), bandwidth: 21.076599 MB/s
+[1674336351.099765] [c100-009:193176:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.121293] [c100-009:193176:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 200(MB); delta_s: 9.501798(s), bandwidth: 21.048649 MB/s
+[1674336351.088685] [c100-009:193131:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.114642] [c100-009:193131:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.577487(s), bandwidth: 20.882305 MB/s
+[1674336351.159628] [c100-009:193138:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.174192] [c100-009:193138:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.514205(s), bandwidth: 21.021200 MB/s
+[1674336351.052820] [c100-009:193116:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.063272] [c100-009:193116:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.624844(s), bandwidth: 20.779558 MB/s
+[1674336351.095967] [c100-009:193147:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.118188] [c100-009:193147:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.542857(s), bandwidth: 20.958084 MB/s
+[1674336351.010468] [c100-010:56846:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.018257] [c100-010:56846:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Client: iteration #1
+
+
+------------------------------
+
+
+
+------------------------------
+
+Client: iteration #40
+
+
+------------------------------
+
+
+
+------------------------------
+
+received FIN message
+total transfer size: 200(MB); delta_s: 9.789359(s), bandwidth: 20.430347 MB/s
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 

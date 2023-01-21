@@ -1,0 +1,3229 @@
+TACC:  Starting up job 5142540 
+TACC:  Starting parallel tasks... 
+[1674336343.081674] [c100-009:192901:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336343.085219] [c100-009:192901:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336343.107855] [c100-009:192901:0]          parser.c:1888 UCX  WARN  unused env variables: UCX_INCLUDE_DIRECTORY,UCX_LIB_DIRECTORY,UCX_WARN_UNUSED_ENV_VARS,UCX_LOG_LEVEL (set UCX_WARN_UNUSED_ENV_VARS=n to suppress this warning)
+[1674336343.135693] [c100-009:192901:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336343.138432] [c100-009:192901:0]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Waiting for connection...
+server is listening on IP 0.0.0.0 port 13337
+Waiting for connection...
+Server received a connection request from client at address 192.168.64.174:41967
+Server received a connection request from client at address 192.168.64.174:44664
+[1674336351.134138] [c100-009:192901:1]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:56705
+[1674336351.146962] [c100-009:192901:2]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.149580] [c100-009:192901:1]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:51034
+[1674336351.160601] [c100-009:192901:2]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.161066] [c100-009:192901:3]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:43356
+[1674336351.172862] [c100-009:192901:4]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.173591] [c100-009:192901:3]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:36660
+Server received a connection request from client at address 192.168.64.174:40304
+Server received a connection request from client at address 192.168.64.174:48717
+Server received a connection request from client at address 192.168.64.174:51927
+Server received a connection request from client at address 192.168.64.174:33528
+Server received a connection request from client at address 192.168.64.174:53428
+Server received a connection request from client at address 192.168.64.174:40721
+Server received a connection request from client at address 192.168.64.174:56552
+Server received a connection request from client at address 192.168.64.174:50096
+Server received a connection request from client at address 192.168.64.174:54657
+Server received a connection request from client at address 192.168.64.174:48298
+Server received a connection request from client at address 192.168.64.174:43741
+Server received a connection request from client at address 192.168.64.174:58517
+Server received a connection request from client at address 192.168.64.174:38835
+Server received a connection request from client at address 192.168.64.174:58305
+Server received a connection request from client at address 192.168.64.174:57194
+[1674336351.240790] [c100-009:192901:5]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.250758] [c100-009:192901:6]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.252322] [c100-009:192901:4]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:48045
+[1674336351.266750] [c100-009:192901:7]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.272302] [c100-009:192901:5]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.277491] [c100-009:192901:6]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:58780
+[1674336351.286745] [c100-009:192901:8]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.286826] [c100-009:192901:9]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.290953] [c100-009:192901:10]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.298840] [c100-009:192901:7]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.300930] [c100-009:192901:11]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.301273] [c100-009:192901:12]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.307822] [c100-009:192901:13]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.312325] [c100-009:192901:14]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.312748] [c100-009:192901:15]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.314163] [c100-009:192901:16]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.320575] [c100-009:192901:9]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.320692] [c100-009:192901:8]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:54017
+[1674336351.328293] [c100-009:192901:17]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.329845] [c100-009:192901:18]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.330175] [c100-009:192901:10]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.346226] [c100-009:192901:19]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.346321] [c100-009:192901:11]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.350176] [c100-009:192901:12]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.350245] [c100-009:192901:20]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.351360] [c100-009:192901:21]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.373437] [c100-009:192901:22]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.373511] [c100-009:192901:23]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.373765] [c100-009:192901:16]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.374632] [c100-009:192901:13]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.374741] [c100-009:192901:15]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.374814] [c100-009:192901:14]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:41477
+[1674336351.384816] [c100-009:192901:17]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.384936] [c100-009:192901:18]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.397210] [c100-009:192901:19]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.406236] [c100-009:192901:21]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.406308] [c100-009:192901:20]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.418562] [c100-009:192901:24]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.428281] [c100-009:192901:23]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.428355] [c100-009:192901:22]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:43874
+[1674336351.465734] [c100-009:192901:25]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.468159] [c100-009:192901:24]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:52472
+[1674336351.508155] [c100-009:192901:26]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.512985] [c100-009:192901:25]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.174:42950
+[1674336351.562864] [c100-009:192901:26]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336351.573445] [c100-009:192901:27]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server received a connection request from client at address 192.168.64.173:41927
+Server received a connection request from client at address 192.168.64.173:49972
+Server received a connection request from client at address 192.168.64.173:42043
+Server received a connection request from client at address 192.168.64.173:42272
+Server received a connection request from client at address 192.168.64.173:54275
+Server received a connection request from client at address 192.168.64.173:36399
+Server received a connection request from client at address 192.168.64.173:47827
+Server received a connection request from client at address 192.168.64.173:57253
+Server received a connection request from client at address 192.168.64.173:50242
+Server received a connection request from client at address 192.168.64.173:47742
+Server received a connection request from client at address 192.168.64.173:44825
+Server received a connection request from client at address 192.168.64.173:54923
+Server received a connection request from client at address 192.168.64.173:38798
+Server received a connection request from client at address 192.168.64.173:57644
+Server received a connection request from client at address 192.168.64.173:53728
+Server received a connection request from client at address 192.168.64.173:52491
+Server received a connection request from client at address 192.168.64.173:41149
+Server received a connection request from client at address 192.168.64.173:48789
+Server received a connection request from client at address 192.168.64.173:41495
+Server received a connection request from client at address 192.168.64.173:41818
+Server received a connection request from client at address 192.168.64.173:37217
+Server received a connection request from client at address 192.168.64.173:40037
+Server received a connection request from client at address 192.168.64.173:52443
+Server received a connection request from client at address 192.168.64.173:58970
+Server received a connection request from client at address 192.168.64.173:34169
+Server received a connection request from client at address 192.168.64.173:53596
+Server received a connection request from client at address 192.168.64.173:34516
+Server received a connection request from client at address 192.168.64.173:35240
+Server received a connection request from client at address 192.168.64.173:54210
+Server received a connection request from client at address 192.168.64.173:51811
+Server received a connection request from client at address 192.168.64.173:34254
+Server received a connection request from client at address 192.168.64.173:39366
+Server received a connection request from client at address 192.168.64.173:41007
+Server received a connection request from client at address 192.168.64.173:39063
+Server received a connection request from client at address 192.168.64.173:36306
+Server received a connection request from client at address 192.168.64.173:37994
+Server received a connection request from client at address 192.168.64.173:46061
+Server received a connection request from client at address 192.168.64.173:36941
+Server received a connection request from client at address 192.168.64.173:60605
+Server received a connection request from client at address 192.168.64.173:43463
+Server received a connection request from client at address 192.168.64.173:40058
+Server received a connection request from client at address 192.168.64.173:40793
+Server received a connection request from client at address 192.168.64.173:33468
+Server received a connection request from client at address 192.168.64.173:40846
+Server received a connection request from client at address 192.168.64.173:53653
+Server received a connection request from client at address 192.168.64.173:38786
+Server received a connection request from client at address 192.168.64.173:40403
+Server received a connection request from client at address 192.168.64.173:50968
+Server received a connection request from client at address 192.168.64.173:38647
+Server received a connection request from client at address 192.168.64.173:54438
+Server received a connection request from client at address 192.168.64.173:43610
+Server received a connection request from client at address 192.168.64.173:43588
+Server received a connection request from client at address 192.168.64.173:33352
+Server received a connection request from client at address 192.168.64.173:43361
+Server received a connection request from client at address 192.168.64.173:44669
+Server received a connection request from client at address 192.168.64.173:33073
+Server received a connection request from client at address 192.168.64.173:44653
+Server received a connection request from client at address 192.168.64.173:34390
+Server received a connection request from client at address 192.168.64.173:52699
+Server received a connection request from client at address 192.168.64.173:58535
+Server received a connection request from client at address 192.168.64.173:42756
+Server received a connection request from client at address 192.168.64.173:38184
+Server received a connection request from client at address 192.168.64.173:44720
+Server received a connection request from client at address 192.168.64.173:47979
+Server received a connection request from client at address 192.168.64.173:50679
+Server received a connection request from client at address 192.168.64.173:55252
+Server received a connection request from client at address 192.168.64.173:52092
+Server received a connection request from client at address 192.168.64.173:33530
+Server received a connection request from client at address 192.168.64.173:58051
+Server received a connection request from client at address 192.168.64.173:45376
+Server received a connection request from client at address 192.168.64.173:52180
+Server received a connection request from client at address 192.168.64.173:44748
+Server received a connection request from client at address 192.168.64.173:43056
+Server received a connection request from client at address 192.168.64.173:54077
+Server received a connection request from client at address 192.168.64.173:46158
+Server received a connection request from client at address 192.168.64.173:53503
+Server received a connection request from client at address 192.168.64.173:48874
+Server received a connection request from client at address 192.168.64.173:52818
+Server received a connection request from client at address 192.168.64.173:50914
+Server received a connection request from client at address 192.168.64.173:55375
+Server received a connection request from client at address 192.168.64.173:44228
+Server received a connection request from client at address 192.168.64.173:48918
+Server received a connection request from client at address 192.168.64.173:43051
+Server received a connection request from client at address 192.168.64.173:45570
+Server received a connection request from client at address 192.168.64.173:56813
+Server received a connection request from client at address 192.168.64.173:58127
+Server received a connection request from client at address 192.168.64.173:51251
+Server received a connection request from client at address 192.168.64.173:49582
+Server received a connection request from client at address 192.168.64.173:41715
+Server received a connection request from client at address 192.168.64.173:44107
+Server received a connection request from client at address 192.168.64.173:34265
+Server received a connection request from client at address 192.168.64.173:40567
+Server received a connection request from client at address 192.168.64.173:51817
+Server received a connection request from client at address 192.168.64.173:50085
+Server received a connection request from client at address 192.168.64.173:38255
+Server received a connection request from client at address 192.168.64.173:47605
+Server received a connection request from client at address 192.168.64.173:40940
+Server received a connection request from client at address 192.168.64.173:54164
+Server received a connection request from client at address 192.168.64.173:50457
+Server received a connection request from client at address 192.168.64.173:55859
+[1674336353.715754] [c100-009:192901:27]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.781567] [c100-009:192901:28]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336353.825765] [c100-009:192901:29]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.837199] [c100-009:192901:30]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.845736] [c100-009:192901:31]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.850838] [c100-009:192901:32]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.865222] [c100-009:192901:33]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.874756] [c100-009:192901:34]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.874826] [c100-009:192901:35]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.877262] [c100-009:192901:36]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.878980] [c100-009:192901:37]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.885709] [c100-009:192901:38]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.886139] [c100-009:192901:39]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.887040] [c100-009:192901:40]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.887113] [c100-009:192901:41]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.887372] [c100-009:192901:42]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.890884] [c100-009:192901:43]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.899759] [c100-009:192901:44]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.901291] [c100-009:192901:45]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.901370] [c100-009:192901:46]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.902709] [c100-009:192901:47]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.910630] [c100-009:192901:48]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.912061] [c100-009:192901:49]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.913996] [c100-009:192901:50]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.921334] [c100-009:192901:51]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.922028] [c100-009:192901:52]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.922267] [c100-009:192901:53]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.924344] [c100-009:192901:54]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.926051] [c100-009:192901:55]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.929336] [c100-009:192901:56]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.930085] [c100-009:192901:57]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.930725] [c100-009:192901:58]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.932507] [c100-009:192901:59]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.933481] [c100-009:192901:60]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.935388] [c100-009:192901:61]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.937589] [c100-009:192901:62]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.939335] [c100-009:192901:63]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.941209] [c100-009:192901:64]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.941717] [c100-009:192901:65]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.942944] [c100-009:192901:66]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.943043] [c100-009:192901:67]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.945135] [c100-009:192901:68]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.949092] [c100-009:192901:69]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.960402] [c100-009:192901:70]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.973250] [c100-009:192901:71]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.973752] [c100-009:192901:28]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.973851] [c100-009:192901:72]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.977460] [c100-009:192901:73]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.978598] [c100-009:192901:74]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.990717] [c100-009:192901:75]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.991399] [c100-009:192901:76]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.991952] [c100-009:192901:77]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336353.992148] [c100-009:192901:78]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.002217] [c100-009:192901:79]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.005219] [c100-009:192901:80]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.005365] [c100-009:192901:81]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.010887] [c100-009:192901:82]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.016350] [c100-009:192901:83]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.018556] [c100-009:192901:84]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.020353] [c100-009:192901:85]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.025709] [c100-009:192901:86]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.027309] [c100-009:192901:87]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.029038] [c100-009:192901:88]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.029277] [c100-009:192901:89]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.032244] [c100-009:192901:90]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.033833] [c100-009:192901:91]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.035431] [c100-009:192901:92]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.036921] [c100-009:192901:93]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.037282] [c100-009:192901:94]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.037356] [c100-009:192901:95]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.045881] [c100-009:192901:96]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.046350] [c100-009:192901:97]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.048053] [c100-009:192901:98]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.048264] [c100-009:192901:99]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.050490] [c100-009:192901:100]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.052412] [c100-009:192901:101]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.053879] [c100-009:192901:102]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.056775] [c100-009:192901:103]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.059136] [c100-009:192901:104]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.059456] [c100-009:192901:105]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.065228] [c100-009:192901:106]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.068334] [c100-009:192901:32]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.069189] [c100-009:192901:107]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.073327] [c100-009:192901:108]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.089620] [c100-009:192901:109]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.092294] [c100-009:192901:110]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.092824] [c100-009:192901:31]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.099878] [c100-009:192901:30]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.100806] [c100-009:192901:29]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.107572] [c100-009:192901:35]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.107640] [c100-009:192901:36]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.109903] [c100-009:192901:111]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.121261] [c100-009:192901:112]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.149016] [c100-009:192901:42]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.167756] [c100-009:192901:41]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.170982] [c100-009:192901:34]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.171892] [c100-009:192901:33]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.189441] [c100-009:192901:43]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.192640] [c100-009:192901:52]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.192804] [c100-009:192901:51]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.194272] [c100-009:192901:40]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.194380] [c100-009:192901:56]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.194582] [c100-009:192901:37]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.203323] [c100-009:192901:55]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.216485] [c100-009:192901:38]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.216603] [c100-009:192901:45]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.220473] [c100-009:192901:46]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.221952] [c100-009:192901:49]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+[1674336354.223349] [c100-009:192901:44]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.229411] [c100-009:192901:53]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.240591] [c100-009:192901:39]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.241339] [c100-009:192901:54]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.244054] [c100-009:192901:65]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.249499] [c100-009:192901:60]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.250469] [c100-009:192901:67]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.251979] [c100-009:192901:50]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.254656] [c100-009:192901:47]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.264465] [c100-009:192901:73]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.274483] [c100-009:192901:48]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.275364] [c100-009:192901:76]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.279625] [c100-009:192901:64]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.280789] [c100-009:192901:82]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.281112] [c100-009:192901:58]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.282602] [c100-009:192901:62]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.288790] [c100-009:192901:63]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.290503] [c100-009:192901:71]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.296832] [c100-009:192901:61]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.300744] [c100-009:192901:70]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.302474] [c100-009:192901:81]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.309395] [c100-009:192901:78]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.310189] [c100-009:192901:74]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.326104] [c100-009:192901:68]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.328203] [c100-009:192901:69]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.328654] [c100-009:192901:59]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.331797] [c100-009:192901:57]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.469938] [c100-009:192901:75]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.470208] [c100-009:192901:85]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.470290] [c100-009:192901:66]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.510730] [c100-009:192901:99]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.513046] [c100-009:192901:77]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.514042] [c100-009:192901:97]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.516202] [c100-009:192901:95]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.518323] [c100-009:192901:83]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.519749] [c100-009:192901:72]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.519890] [c100-009:192901:94]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.519969] [c100-009:192901:93]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.520177] [c100-009:192901:89]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.520391] [c100-009:192901:105]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.522465] [c100-009:192901:100]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.523276] [c100-009:192901:103]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.524433] [c100-009:192901:86]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.671945] [c100-009:192901:90]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+[1674336354.673494] [c100-009:192901:98]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.674942] [c100-009:192901:110]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.675769] [c100-009:192901:79]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.677967] [c100-009:192901:91]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.679885] [c100-009:192901:87]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+[1674336354.677997] [c100-009:192901:88]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.680644] [c100-009:192901:80]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.692562] [c100-009:192901:102]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336354.706334] [c100-009:192901:96]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.707045] [c100-009:192901:84]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.771440] [c100-009:192901:106]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.772091] [c100-009:192901:92]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.776743] [c100-009:192901:109]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.778508] [c100-009:192901:101]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.779062] [c100-009:192901:112]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.797153] [c100-009:192901:107]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.798466] [c100-009:192901:104]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.841580] [c100-009:192901:108]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336354.855318] [c100-009:192901:111]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56aa15000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac56abdf000: Endpoint timeout
+[1674336355.504011] [c100-009:192901:5]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336355.520544] [c100-009:192901:19]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336355.521885] [c100-009:192901:5]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336355.537458] [c100-009:192901:19]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336355.761218] [c100-009:192901:4]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336355.763674] [c100-009:192901:4]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56b31e000: Endpoint timeout
+failed to close ep 0x2ac56aafa000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336355.968120] [c100-009:192901:22]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336355.970202] [c100-009:192901:18]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.000758] [c100-009:192901:22]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac5bbf96000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+[1674336356.031883] [c100-009:192901:18]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336356.138302] [c100-009:192901:14]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.143183] [c100-009:192901:14]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac563f8d000: Endpoint timeout
+[1674336356.247627] [c100-009:192901:3]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.253241] [c100-009:192901:3]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac503f8e000: Endpoint timeout
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336356.359141] [c100-009:192901:1]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.361563] [c100-009:192901:1]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+[1674336356.376259] [c100-009:192901:24]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336356.396094] [c100-009:192901:24]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56b617000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+[1674336356.546605] [c100-009:192901:12]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+sent FIN message
+failed to close ep 0x2ac5db4c2000: Endpoint timeout
+[1674336356.552021] [c100-009:192901:12]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.613284] [c100-009:192901:10]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.639023] [c100-009:192901:10]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac573f9d000: Endpoint timeout
+[1674336356.757459] [c100-009:192901:15]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.764882] [c100-009:192901:15]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac5db642000: Endpoint timeout
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5db462000: Endpoint timeout
+[1674336356.841437] [c100-009:192901:7]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.843887] [c100-009:192901:7]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336356.929263] [c100-009:192901:11]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336356.977881] [c100-009:192901:11]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336356.978947] [c100-009:192901:21]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336357.122894] [c100-009:192901:21]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5c7f9d000: Endpoint timeout
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac5db402000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5db522000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+[1674336357.366654] [c100-009:192901:17]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+[1674336357.379243] [c100-009:192901:17]        rc_iface.c:506  UCX  WARN  using maximal value for RETRY_COUNT (7) instead of 40
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5db727000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac527f9e000: Endpoint timeout
+failed to close ep 0x2ac5cff99000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac546a65000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac547aed000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac547a8d000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac52778e000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5db5e2000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5271ff000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+sent FIN message
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac526bf3000: Endpoint timeout
+failed to close ep 0x2ac527b96000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5f0ce6000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5266e9000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5db787000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56abdf000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac572d33000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5730c7000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56a886000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+failed to close ep 0x2ac56aa15000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56ac9f000: Endpoint timeout
+failed to close ep 0x2ac54790e000: Endpoint timeout
+sent FIN message
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac56acff000: Endpoint timeout
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac546c8e000: Endpoint timeout
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac527642000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+sent FIN message
+failed to close ep 0x2ac526ef9000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac526af1000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56ad5f000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac527063000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac547d33000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5f0c86000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac546e92000: Endpoint timeout
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5473df000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac527d58000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac547829000: Endpoint timeout
+sent FIN message
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac572e53000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac56ac3f000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+failed to close ep 0x2ac546a05000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac526a68000: Endpoint timeout
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+failed to close ep 0x2ac5271ff000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #1
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+sent FIN message
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+sent FIN message
+sent FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac560d93000: Endpoint timeout
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+sent FIN message
+failed to close ep 0x2ac5f0d46000: Endpoint timeout
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+sent FIN message
+Server: iteration #40
+UCX data message was received
+
+
+----- UCP TEST SUCCESS -------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+Server receives test data correctly from client
+
+
+------------------------------
+
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #31
+failed to close ep 0x2ac55e5a8000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #36
+failed to close ep 0x2ac527a7f000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #31
+failed to close ep 0x2ac52716d000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #24
+failed to close ep 0x2ac527d58000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #24
+failed to close ep 0x2ac527c7b000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #22
+failed to close ep 0x2ac527f9e000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #30
+failed to close ep 0x2ac54778f000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #25
+failed to close ep 0x2ac527642000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #37
+failed to close ep 0x2ac563e8b000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #36
+failed to close ep 0x2ac560eb3000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #37
+failed to close ep 0x2ac5275e2000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #26
+failed to close ep 0x2ac527063000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #23
+failed to close ep 0x2ac5276a2000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #34
+failed to close ep 0x2ac526ac8000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #26
+failed to close ep 0x2ac526d5f000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #26
+failed to close ep 0x2ac503f13000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #30
+failed to close ep 0x2ac526ef9000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #40
+failed to close ep 0x2ac526b57000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #39
+failed to close ep 0x2ac55e712000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #30
+failed to close ep 0x2ac527505000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #29
+failed to close ep 0x2ac547e35000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #27
+failed to close ep 0x2ac560df3000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #29
+failed to close ep 0x2ac547aed000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #30
+failed to close ep 0x2ac54729a000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #31
+failed to close ep 0x2ac560e53000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #40
+failed to close ep 0x2ac563a9c000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #37
+failed to close ep 0x2ac55e548000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #26
+failed to close ep 0x2ac546cee000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #30
+failed to close ep 0x2ac527cf8000: Endpoint timeout
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+server failed on iteration #33
+failed to close ep 0x2ac5277ee000: Endpoint timeout
+unable to send UCX message (Connection reset by remote peer)
+server failed on FIN message
+failed to close ep 0x2ac52778e000: Endpoint timeout
+unable to send UCX message (Connection reset by remote peer)
+server failed on FIN message
+failed to close ep 0x2ac526bf3000: Endpoint timeout
+unable to send UCX message (Connection reset by remote peer)
+server failed on FIN message
+failed to close ep 0x2ac55f487000: Endpoint timeout
+[mpiexec@c100-009.frontera.tacc.utexas.edu] Sending Ctrl-C to processes as requested
+[mpiexec@c100-009.frontera.tacc.utexas.edu] Press Ctrl-C again to force abort
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 192901 RUNNING AT c100-009
+=   KILLED BY SIGNAL: 2 (Interrupt)
+===================================================================================
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 

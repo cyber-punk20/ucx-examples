@@ -189,7 +189,6 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
         ucp_worker_destroy(ucp_worker);
         return ret;
     }
-    
     /* Server is always up listening */
     pthread_t server_listener_thread_id;
     int listener_thread = pthread_create(&server_listener_thread_id, NULL, &server_progress, &ucp_worker);
@@ -257,6 +256,7 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
         
         
     }
+    pthread_join(listener_thread, NULL);
 err_listener:
     ucp_listener_destroy(context.listener);
 
@@ -286,6 +286,7 @@ int main(int argc, char ** argv) {
     /* Initialize the UCX required objects */
     ret = init_context(&ucp_context, &ucp_worker, send_recv_type);
     void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, MEM_PER_CLIENT);
+    // printf("%d, %p\n", ret, ptr);
     if (ret != 0 || ptr == NULL) {
         goto err;
     }
