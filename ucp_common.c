@@ -227,16 +227,19 @@ int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker,
     memset(&ucp_params, 0, sizeof(ucp_params));
 
     /* UCP initialization */
-    ucp_params.field_mask = UCP_PARAM_FIELD_FEATURES | UCP_PARAM_FIELD_NAME;
+    ucp_params.field_mask = UCP_PARAM_FIELD_FEATURES | UCP_PARAM_FIELD_NAME | UCP_PARAM_FIELD_MT_WORKERS_SHARED;
     ucp_params.name       = "ucp_client_server";
+    ucp_params.mt_workers_shared = 1;
     if (send_recv_type == CLIENT_SERVER_SEND_RECV_STREAM) {
         ucp_params.features = UCP_FEATURE_STREAM;
     } 
     // else if (send_recv_type == CLIENT_SERVER_SEND_RECV_TAG) {
     //     ucp_params.features = UCP_FEATURE_TAG;
     // } 
-    else {
+    else if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
         ucp_params.features = UCP_FEATURE_AM;
+    } else {
+        ucp_params.features = UCP_FEATURE_RMA;
     }
     status = ucp_init(&ucp_params, NULL, ucp_context);
     if (status != UCS_OK) {
@@ -271,7 +274,7 @@ int init_worker(ucp_context_h ucp_context, ucp_worker_h *ucp_worker)
     memset(&worker_params, 0, sizeof(worker_params));
 
     worker_params.field_mask  = UCP_WORKER_PARAM_FIELD_THREAD_MODE;
-    worker_params.thread_mode = UCS_THREAD_MODE_SINGLE;
+    worker_params.thread_mode = UCS_THREAD_MODE_SERIALIZED;
 
     status = ucp_worker_create(ucp_context, &worker_params, ucp_worker);
     if (status != UCS_OK) {
