@@ -7,6 +7,9 @@
 #include <stdlib.h>    /* atoi */
 #include <sys/time.h>
 
+#include <mpi.h> 
+
+
 /**
  * Initialize the client side. Create an endpoint from the client side to be
  * connected to the remote server (to the given IP).
@@ -83,13 +86,16 @@ static int run_client(ucp_worker_h ucp_worker, char *server_addr,
 out:
     return ret;
 }
-
+int mpi_rank, nClient=0;	// rank and size of MPI
 int main(int argc, char **argv)
 {
     
     char *server_addr = NULL;
     int ret;
-
+    MPI_Init(NULL, NULL);
+	MPI_Comm_size(MPI_COMM_WORLD, &nClient);
+	MPI_Comm_rank(MPI_COMM_WORLD, &mpi_rank);
+    printf("Client %d is running\n", mpi_rank);
     /* UCP objects */
     ucp_context_h ucp_context;
     ucp_worker_h  ucp_worker;
@@ -111,6 +117,7 @@ int main(int argc, char **argv)
 
     ucp_worker_destroy(ucp_worker);
     ucp_cleanup(ucp_context);
+    MPI_Barrier(MPI_COMM_WORLD);
 err:
     return ret;
 }

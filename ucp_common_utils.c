@@ -31,7 +31,7 @@ void *mem_type_malloc(size_t length)
 
     switch (test_mem_type) {
     case UCS_MEMORY_TYPE_HOST:
-        printf("UCS_MEMORY_TYPE_HOST\n");
+        // printf("UCS_MEMORY_TYPE_HOST\n");
         ptr = malloc(length);
         break;
 #ifdef HAVE_CUDA

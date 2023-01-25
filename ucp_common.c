@@ -5,7 +5,7 @@
 send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_DEFAULT;
 
 long test_string_length = 1024 * 1024 * 5;
-long iov_cnt            = 3;
+long iov_cnt            = 1;
 
 sa_family_t ai_family   = AF_INET;
 uint16_t server_port    = DEFAULT_PORT;

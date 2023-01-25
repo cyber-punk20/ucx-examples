@@ -1,0 +1,452 @@
+TACC:  Starting up job 5155622 
+TACC:  Starting parallel tasks... 
+received FIN message
+total transfer size: 110(MB); delta_s: 1.032293(s), bandwidth: 106.558899 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.111609(s), bandwidth: 98.955658 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.076700(s), bandwidth: 102.164024 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.074800(s), bandwidth: 102.344620 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.134521(s), bandwidth: 96.957214 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.139008(s), bandwidth: 96.575264 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.149638(s), bandwidth: 95.682289 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.239750(s), bandwidth: 88.727562 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.373178(s), bandwidth: 80.106148 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.484527(s), bandwidth: 74.097679 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.522084(s), bandwidth: 72.269333 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 1.556167(s), bandwidth: 70.686501 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.534253(s), bandwidth: 71.696129 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.508333(s), bandwidth: 72.928192 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.573436(s), bandwidth: 69.910690 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.652237(s), bandwidth: 66.576401 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.677176(s), bandwidth: 65.586441 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.697453(s), bandwidth: 64.802971 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.743898(s), bandwidth: 63.077084 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.768606(s), bandwidth: 62.195877 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.797883(s), bandwidth: 61.183067 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 1.887372(s), bandwidth: 58.282097 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 1.919002(s), bandwidth: 57.321461 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 1.969849(s), bandwidth: 55.841843 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.039149(s), bandwidth: 53.944069 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.162728(s), bandwidth: 50.861687 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.169585(s), bandwidth: 50.700939 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.246077(s), bandwidth: 48.974277 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.240934(s), bandwidth: 49.086678 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.302514(s), bandwidth: 47.773865 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 2.324617(s), bandwidth: 47.319626 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.312633(s), bandwidth: 47.564831 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.345571(s), bandwidth: 46.896896 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+total transfer size: 110(MB); delta_s: 2.374703(s), bandwidth: 46.321583 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.386654(s), bandwidth: 46.089630 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.385708(s), bandwidth: 46.107903 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 2.432603(s), bandwidth: 45.219055 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.460216(s), bandwidth: 44.711521 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.434655(s), bandwidth: 45.180939 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 2.498160(s), bandwidth: 44.032410 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.541170(s), bandwidth: 43.287148 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.520090(s), bandwidth: 43.649235 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.624635(s), bandwidth: 41.910591 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.623572(s), bandwidth: 41.927570 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 2.638022(s), bandwidth: 41.697910 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.741851(s), bandwidth: 40.118881 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.791637(s), bandwidth: 39.403404 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.809217(s), bandwidth: 39.156818 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.839832(s), bandwidth: 38.734684 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.879589(s), bandwidth: 38.199894 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.849185(s), bandwidth: 38.607533 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 2.870334(s), bandwidth: 38.323067 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 2.922700(s), bandwidth: 37.636433 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.920105(s), bandwidth: 37.669880 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.953755(s), bandwidth: 37.240734 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.974511(s), bandwidth: 36.980869 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 2.986677(s), bandwidth: 36.830231 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.038626(s), bandwidth: 36.200573 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.047291(s), bandwidth: 36.097633 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.102785(s), bandwidth: 35.452019 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.142712(s), bandwidth: 35.001614 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.253198(s), bandwidth: 33.812881 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.248116(s), bandwidth: 33.865784 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 3.209352(s), bandwidth: 34.274830 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.253076(s), bandwidth: 33.814148 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 3.323003(s), bandwidth: 33.102589 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.327479(s), bandwidth: 33.058060 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 3.408994(s), bandwidth: 32.267586 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.428625(s), bandwidth: 32.082832 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 3.424416(s), bandwidth: 32.122265 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.413285(s), bandwidth: 32.227020 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.448998(s), bandwidth: 31.893322 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.623402(s), bandwidth: 30.358210 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.631678(s), bandwidth: 30.289028 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.625203(s), bandwidth: 30.343130 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.639011(s), bandwidth: 30.227995 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.695366(s), bandwidth: 29.767012 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 3.671570(s), bandwidth: 29.959934 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.820755(s), bandwidth: 28.790121 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.842683(s), bandwidth: 28.625832 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.885758(s), bandwidth: 28.308506 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.991472(s), bandwidth: 27.558756 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 3.980575(s), bandwidth: 27.634197 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 3.984283(s), bandwidth: 27.608480 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.070634(s), bandwidth: 27.022818 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.053122(s), bandwidth: 27.139572 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.056996(s), bandwidth: 27.113659 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.066638(s), bandwidth: 27.049372 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.069779(s), bandwidth: 27.028496 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.063705(s), bandwidth: 27.068893 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.137493(s), bandwidth: 26.586147 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.269797(s), bandwidth: 25.762350 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.231750(s), bandwidth: 25.993975 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.222978(s), bandwidth: 26.047968 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.293585(s), bandwidth: 25.619617 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.360470(s), bandwidth: 25.226639 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.350389(s), bandwidth: 25.285095 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.348690(s), bandwidth: 25.294973 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.347873(s), bandwidth: 25.299726 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.429130(s), bandwidth: 24.835577 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.431837(s), bandwidth: 24.820408 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.446523(s), bandwidth: 24.738430 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.526809(s), bandwidth: 24.299677 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.610852(s), bandwidth: 23.856764 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.615968(s), bandwidth: 23.830320 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.676456(s), bandwidth: 23.522085 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.685341(s), bandwidth: 23.477480 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.751497(s), bandwidth: 23.150600 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 4.889007(s), bandwidth: 22.499456 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 4.901941(s), bandwidth: 22.440092 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 4.974212(s), bandwidth: 22.114056 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.075409(s), bandwidth: 21.673130 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.099647(s), bandwidth: 21.570120 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 5.129595(s), bandwidth: 21.444189 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 5.139651(s), bandwidth: 21.402231 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.148442(s), bandwidth: 21.365688 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.176242(s), bandwidth: 21.250938 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.200928(s), bandwidth: 21.150070 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.198188(s), bandwidth: 21.161221 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.243528(s), bandwidth: 20.978243 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.260472(s), bandwidth: 20.910671 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.313285(s), bandwidth: 20.702824 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 5.353057(s), bandwidth: 20.549006 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 5.354803(s), bandwidth: 20.542305 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.386463(s), bandwidth: 20.421564 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 5.401363(s), bandwidth: 20.365231 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 5.487529(s), bandwidth: 20.045452 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.493211(s), bandwidth: 20.024719 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.596613(s), bandwidth: 19.654745 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.575778(s), bandwidth: 19.728189 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.673628(s), bandwidth: 19.387947 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.674556(s), bandwidth: 19.384777 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.755876(s), bandwidth: 19.110905 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.759152(s), bandwidth: 19.100035 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.757378(s), bandwidth: 19.105919 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.766669(s), bandwidth: 19.075138 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.816126(s), bandwidth: 18.912933 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 5.831072(s), bandwidth: 18.864456 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 5.841618(s), bandwidth: 18.830399 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 5.855755(s), bandwidth: 18.784939 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 5.894549(s), bandwidth: 18.661310 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.902060(s), bandwidth: 18.637560 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.955272(s), bandwidth: 18.471027 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 5.958946(s), bandwidth: 18.459641 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.018973(s), bandwidth: 18.275543 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.026150(s), bandwidth: 18.253777 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.051717(s), bandwidth: 18.176661 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.048559(s), bandwidth: 18.186150 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.078502(s), bandwidth: 18.096563 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.115064(s), bandwidth: 17.988363 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.156565(s), bandwidth: 17.867105 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.172406(s), bandwidth: 17.821251 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.184955(s), bandwidth: 17.785093 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.203120(s), bandwidth: 17.733011 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.207661(s), bandwidth: 17.720039 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.219936(s), bandwidth: 17.685070 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.300658(s), bandwidth: 17.458494 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.320952(s), bandwidth: 17.402443 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.330127(s), bandwidth: 17.377218 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.327890(s), bandwidth: 17.383362 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.348785(s), bandwidth: 17.326151 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.413399(s), bandwidth: 17.151590 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.424505(s), bandwidth: 17.121941 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.478519(s), bandwidth: 16.979189 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.511522(s), bandwidth: 16.893133 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.514784(s), bandwidth: 16.884674 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.512814(s), bandwidth: 16.889780 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.521726(s), bandwidth: 16.866701 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.538132(s), bandwidth: 16.824377 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.559748(s), bandwidth: 16.768936 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.569089(s), bandwidth: 16.745092 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.563019(s), bandwidth: 16.760580 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.579618(s), bandwidth: 16.718296 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.588461(s), bandwidth: 16.695856 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.656907(s), bandwidth: 16.524191 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.671344(s), bandwidth: 16.488432 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.677785(s), bandwidth: 16.472528 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.672807(s), bandwidth: 16.484816 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.686362(s), bandwidth: 16.451399 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.687803(s), bandwidth: 16.447853 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.728397(s), bandwidth: 16.348619 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.758576(s), bandwidth: 16.275618 MB/s
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.764562(s), bandwidth: 16.261215 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+error handling callback was invoked with status -25 (Connection reset by remote peer)
+total transfer size: 110(MB); delta_s: 6.764985(s), bandwidth: 16.260199 MB/s
+unable to receive UCX message (Request canceled)
+client failed on FIN message
+received FIN message
+total transfer size: 110(MB); delta_s: 6.755611(s), bandwidth: 16.282761 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.776214(s), bandwidth: 16.233253 MB/s
+received FIN message
+total transfer size: 110(MB); delta_s: 6.777998(s), bandwidth: 16.228981 MB/s
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
