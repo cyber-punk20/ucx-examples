@@ -4,15 +4,15 @@
 
 send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_DEFAULT;
 
-long test_string_length = 1024 * 1024 * 5;
+long test_string_length = 1024 * 1024 * 50;
 long iov_cnt            = 1;
 
 sa_family_t ai_family   = AF_INET;
 uint16_t server_port    = DEFAULT_PORT;
 static int num_iterations      = DEFAULT_NUM_ITERATIONS;
 static int connection_closed   = 1;
-long total_transfer_size = (num_iterations + 2) * iov_cnt * test_string_length;
-
+long total_mem_alloc_size = (num_iterations + 1) * iov_cnt * test_string_length;
+long total_transfer_size = (num_iterations) * iov_cnt * test_string_length;
 typedef struct test_req {
     int complete;
 } test_req_t;
@@ -183,7 +183,7 @@ int buffer_malloc(ucp_dt_iov_t *iov, unsigned int client_idx, void* ptr, int cur
     
     for (idx = 0; idx < iov_cnt; idx++) {
         iov[idx].length = test_string_length;
-        iov[idx].buffer = (char *)ptr + client_idx * total_transfer_size + current_iter * iov_cnt * test_string_length + idx * test_string_length;
+        iov[idx].buffer = (char *)ptr + client_idx * total_mem_alloc_size + current_iter * iov_cnt * test_string_length + idx * test_string_length;
         // printf("buffer malloc for client idx #%d, current iter #%d, ptr #%p\n", client_idx, current_iter, iov[idx].buffer);
         if (iov[idx].buffer == NULL) {
             buffer_free(iov);

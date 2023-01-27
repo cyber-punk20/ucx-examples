@@ -6,6 +6,9 @@
 #include <unistd.h>    /* getopt */
 #include <stdlib.h>    /* atoi */
 #include <sys/time.h>
+#include <iostream>
+#include <fstream>
+
 
 #include <mpi.h> 
 
@@ -56,7 +59,7 @@ static ucs_status_t start_client(ucp_worker_h ucp_worker,
 
     return status;
 }
-
+int mpi_rank, nClient=0;	// rank and size of MPI
 static int run_client(ucp_worker_h ucp_worker, char *server_addr,
                       send_recv_type_t send_recv_type)
 {
@@ -73,20 +76,37 @@ static int run_client(ucp_worker_h ucp_worker, char *server_addr,
     {
         struct timeval end, start;
         AM_DATA_DESC am_data_desc = {0, 0, NULL, NULL};
-        void* ptr = mem_type_malloc(total_transfer_size);
+        void* ptr = mem_type_malloc(total_mem_alloc_size);
         gettimeofday(&start, NULL);
         ret = client_server_do_work(ucp_worker, client_ep, send_recv_type, &am_data_desc, 0, ptr, 0);
         gettimeofday(&end, NULL);
         float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
-        printf("total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", total_transfer_size / (1024 * 1024), delta_s, total_transfer_size / delta_s / (1024 * 1024)); 
+        float bandwidth =  total_transfer_size / delta_s / (1024 * 1024);
+        printf("total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", total_transfer_size / (1024 * 1024), delta_s, bandwidth); 
         /* Close the endpoint to the server */
+        float *bandwidth_arr = NULL;
+        if (mpi_rank == 0) {
+            bandwidth_arr = (float*)malloc(sizeof(float) * nClient);
+        }
+        MPI_Gather(&bandwidth, 1, MPI_FLOAT, bandwidth_arr, 1, MPI_FLOAT, 0, MPI_COMM_WORLD);
+        if (mpi_rank == 0) {
+            std::ofstream result_file("ucp_client_stram_result.txt");
+            if (result_file.is_open())
+            {
+                result_file << "ID Bandwidth\n";
+                for(int i = 0; i < nClient; i++) {
+                    result_file << i << " " << bandwidth_arr[i] << std::endl;
+                }
+                result_file.close();
+            }
+        }
         ep_close(ucp_worker, client_ep, UCP_EP_CLOSE_MODE_FLUSH);
         mem_type_free(ptr);
     }
 out:
     return ret;
 }
-int mpi_rank, nClient=0;	// rank and size of MPI
+
 int main(int argc, char **argv)
 {
     
@@ -110,7 +130,7 @@ int main(int argc, char **argv)
     if (ret != 0) {
         goto err;
     }
-
+    MPI_Barrier(MPI_COMM_WORLD);
     /* Client-Server initialization */
     /* Client side */
     ret = run_client(ucp_worker, server_addr, send_recv_type);

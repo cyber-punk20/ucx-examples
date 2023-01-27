@@ -10,8 +10,8 @@
 #define DEFAULT_PORT           13337
 #define IP_STRING_LEN          50
 #define PORT_STRING_LEN        8
-#define PRINT_INTERVAL         5
-#define DEFAULT_NUM_ITERATIONS 1
+#define PRINT_INTERVAL         10
+#define DEFAULT_NUM_ITERATIONS 10
 #define TEST_AM_ID             0
 #define SERVER_MAX_CLIENT_CNT 188
 #define DEBUG_DATA_CHECK false
@@ -37,6 +37,7 @@ typedef struct AM_DATA_DESC{
 extern long test_string_length;
 extern long iov_cnt;
 extern long total_transfer_size;
+extern long total_mem_alloc_size;
 
 extern send_recv_type_t send_recv_type;
 

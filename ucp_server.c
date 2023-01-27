@@ -184,8 +184,8 @@ static int run_server(ucp_context_h ucp_context, ucp_worker_h ucp_worker,
     ThreadPool pool(number_of_threads);
 
 
-    void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, total_transfer_size);
-    // void* ptr = mem_type_malloc(SERVER_MAX_CLIENT_CNT * total_transfer_size);
+    void* ptr = allocate_memory_for_rma(SERVER_MAX_CLIENT_CNT, total_mem_alloc_size);
+    // void* ptr = mem_type_malloc(SERVER_MAX_CLIENT_CNT * total_mem_alloc_size);
     /* Create a listener on the worker created at first. The 'connection
      * worker' - used for connection establishment between client and server.
      * This listener will stay open for listening to incoming connection
