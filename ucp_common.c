@@ -2,7 +2,7 @@
 #include "ucp_common_utils.h"
 
 
-send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_DEFAULT;
+send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_RMA;
 
 long test_string_length = 1024 * 1024 * 50;
 long iov_cnt            = 1;
@@ -239,6 +239,7 @@ int init_context(ucp_context_h *ucp_context, ucp_worker_h *ucp_worker,
     else if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM) {
         ucp_params.features = UCP_FEATURE_AM;
     } else {
+        // printf("UCP_FEATURE_EXPORTED_MEMH set\n");
         ucp_params.features = UCP_FEATURE_RMA;
     }
     status = ucp_init(&ucp_params, NULL, ucp_context);
@@ -274,7 +275,7 @@ int init_worker(ucp_context_h ucp_context, ucp_worker_h *ucp_worker)
     memset(&worker_params, 0, sizeof(worker_params));
 
     worker_params.field_mask  = UCP_WORKER_PARAM_FIELD_THREAD_MODE;
-    worker_params.thread_mode = UCS_THREAD_MODE_SERIALIZED;
+    worker_params.thread_mode = UCS_THREAD_MODE_MULTI;
 
     status = ucp_worker_create(ucp_context, &worker_params, ucp_worker);
     if (status != UCS_OK) {
@@ -643,6 +644,9 @@ static int client_server_communication(ucp_worker_h worker, ucp_ep_h ep,
     //     /* Client-Server communication via Tag-Matching API */
     //     ret = send_recv_tag(worker, ep, is_server, current_iter);
     //     break;
+    case CLIENT_SERVER_SEND_RECV_RMA:
+       ret = send_recv_stream(worker, ep, client_idx, ptr, is_server, current_iter);
+       break; 
     case CLIENT_SERVER_SEND_RECV_AM:
         /* Client-Server communication via AM API. */
         ret = send_recv_am(worker, ep, am_data_desc_p, client_idx, ptr, is_server, current_iter);
