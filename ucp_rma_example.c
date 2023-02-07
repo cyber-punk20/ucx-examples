@@ -20,7 +20,7 @@
 #include <sys/ioctl.h>
 #include <unistd.h>    /* getopt */
 #include <stdlib.h>    /* atoi */
-
+#include <sys/time.h>
 
 #include <mpi.h> 
 #define IB_DEVICE	"ib0"
@@ -295,10 +295,12 @@ int main(int argc, char ** argv) {
     ucp_ep_h         peer_ep[nServer];
     int threads[nServer];
     int progress_threads[nServer];
+    struct timeval end, start;
+    void* testbuff = malloc(total_mem_alloc_size);
+    gettimeofday(&start, NULL);
     for(int i = 0; i < nServer; i++) {
         if(i == mpi_rank) continue;
         int              ret;
-        void* testbuff = malloc(total_mem_alloc_size);
         generate_test_string(testbuff, total_mem_alloc_size);
         ret = init_worker(ucp_context, &server_wait_request_params[i].ucp_data_worker);
         status = server_create_ep(server_wait_request_params[i].ucp_data_worker, ((ucp_address_t*)((char*)all_address_t + address_length * i)), &peer_ep[i]);
@@ -330,6 +332,10 @@ int main(int argc, char ** argv) {
         // waiting and doing nothing
     }
     MPI_Barrier(MPI_COMM_WORLD);
+    gettimeofday(&end, NULL);
+    float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
+    float bandwidth = (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) * 2 / delta_s;
+    printf("mpi rank: %d total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", mpi_rank, (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) * 2 , delta_s, bandwidth); 
     for(int i = 0; i < nServer; i++) {
         if(i == mpi_rank) continue;
         // generate_test_string((void*)((char*)rdma_alloc_address + i * total_mem_alloc_size), total_mem_alloc_size);
@@ -337,7 +343,7 @@ int main(int argc, char ** argv) {
             printf("mpi_rank %d iter %d pass check_generate_test_string\n", mpi_rank, i);
         }
     }
-    while(true) {}
+    // while(true) {}
     // for(int i = 0; i < nServer; i++) {
     //     pthread_join(threads[i], NULL);
     // }
