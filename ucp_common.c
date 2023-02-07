@@ -4,7 +4,7 @@
 
 send_recv_type_t send_recv_type = CLIENT_SERVER_SEND_RECV_RMA;
 
-long test_string_length = 1024 * 1024 * 50;
+long test_string_length = 1024 * 1024 * 5;
 long iov_cnt            = 1;
 
 sa_family_t ai_family   = AF_INET;

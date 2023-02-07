@@ -147,6 +147,10 @@ typedef struct server_wait_request_param {
     test_req_t ctx;
     uint64_t address;
 }server_wait_request_param_t;
+
+std::mutex m;
+int req_cnt = 0;
+
 static void* server_wait_request(void* args) {
     server_wait_request_param* param = (server_wait_request_param*)args;
     
@@ -155,6 +159,11 @@ static void* server_wait_request(void* args) {
     // if(check_generate_test_string(param->address, total_mem_alloc_size)) {
     //     printf("server_wait_request check pass");
     // }
+    {
+        std::lock_guard<std::mutex> lk(m);
+        req_cnt++;
+    }
+    ucp_worker_destroy(param->ucp_data_worker);
     return NULL;
 }
 
@@ -200,14 +209,15 @@ int main(int argc, char ** argv) {
     ucs_status_t status;
     status = ucp_worker_get_address(ucp_worker, &address_t, &address_length);
     printf("mpi_rank: %d  address_length:%d status:%s ucp_worker_get_address:%s\n", mpi_rank, address_length, ucs_status_string(status), ((char*)(address_t)));
+    address_length = address_length + 10;
     void *all_address_t = malloc(address_length * nServer);
     MPI_Barrier(MPI_COMM_WORLD);
     MPI_Allgather(address_t, address_length, MPI_CHAR, all_address_t, address_length, MPI_CHAR, MPI_COMM_WORLD);
-    if(checkallzeros(all_address_t, address_length * nServer)) {
-        printf("mpi rank %d\t all zeros\n", mpi_rank);
-    } else {
-        printf("mpi rank %d\t not all zeros\n", mpi_rank);
-    }
+    // if(checkallzeros(all_address_t, address_length * nServer)) {
+    //     printf("mpi rank %d\t all zeros\n", mpi_rank);
+    // } else {
+    //     printf("mpi rank %d\t not all zeros\n", mpi_rank);
+    // }
 
 
 
@@ -313,8 +323,12 @@ int main(int argc, char ** argv) {
         threads[i] = pthread_create(&server_worker_id[i], NULL, &server_wait_request, &server_wait_request_params[i]);
         // progress_threads[i] = pthread_create(&server_progress_id[i], NULL, &server_progress, &ucp_data_worker[i]);
 
+
     }
-    sleep(5);
+    // sleep(15);
+    while(req_cnt < nServer - 1) {
+        // waiting and doing nothing
+    }
     MPI_Barrier(MPI_COMM_WORLD);
     for(int i = 0; i < nServer; i++) {
         if(i == mpi_rank) continue;
