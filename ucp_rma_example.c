@@ -11,7 +11,8 @@
 #include <mutex>
 #include <queue>
 #include <condition_variable>
-
+#include <iostream>
+#include <fstream>
 
 #include <string.h>    /* memset */
 #include <arpa/inet.h> /* inet_addr */
@@ -331,11 +332,12 @@ int main(int argc, char ** argv) {
     while(req_cnt < nServer - 1) {
         // waiting and doing nothing
     }
+    
     MPI_Barrier(MPI_COMM_WORLD);
     gettimeofday(&end, NULL);
     float delta_s = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.0;
-    float bandwidth = (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) * 2 / delta_s;
-    printf("mpi rank: %d total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", mpi_rank, (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) * 2 , delta_s, bandwidth); 
+    float bandwidth = (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) / delta_s * 2;
+    printf("mpi rank: %d total transfer size: %ld(MB); delta_s: %f(s), bandwidth: %f MB/s\n", mpi_rank, (total_mem_alloc_size / (1024 * 1024)) * (nServer - 1) * 2, delta_s, bandwidth); 
     for(int i = 0; i < nServer; i++) {
         if(i == mpi_rank) continue;
         // generate_test_string((void*)((char*)rdma_alloc_address + i * total_mem_alloc_size), total_mem_alloc_size);
@@ -343,7 +345,23 @@ int main(int argc, char ** argv) {
             printf("mpi_rank %d iter %d pass check_generate_test_string\n", mpi_rank, i);
         }
     }
-    // while(true) {}
+    // float *bandwidth_arr = NULL;
+    // if (mpi_rank == 0) {
+    //     bandwidth_arr = (float*)malloc(sizeof(float) * nServer);
+    // }
+    // MPI_Gather(&bandwidth, 1, MPI_FLOAT, bandwidth_arr, 1, MPI_FLOAT, 0, MPI_COMM_WORLD);
+    // if (mpi_rank == 0) {
+    //     std::ofstream result_file("ucp_rma_example_result.txt");
+    //     if (result_file.is_open())
+    //     {
+    //         result_file << "ID Bandwidth\n";
+    //         for(int i = 0; i < nServer; i++) {
+    //             result_file << i << " " << bandwidth_arr[i] << std::endl;
+    //         }
+    //         result_file.close();
+    //     }
+    // }
+    while(true) {}
     // for(int i = 0; i < nServer; i++) {
     //     pthread_join(threads[i], NULL);
     // }
@@ -352,6 +370,7 @@ int main(int argc, char ** argv) {
     // }
     ucp_worker_destroy(ucp_worker);
     MPI_Barrier(MPI_COMM_WORLD);
+    
     return ret;
 
 }
